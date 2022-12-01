@@ -1,0 +1,18 @@
+:root {
+    --header-height: 3rem;
+    --nav-width: 200px;
+
+    --first-color: #f10086;
+    --first-color-alt: #f582a7;
+    --white-color: #ffddee;
+}
+
+.custom-container {
+    padding-left: calc(var(--nav-width) + 1rem);
+}
+
+@media screen and (max-width: 768px) {
+    .custom-container {
+        padding: 0 1rem;
+    }
+}

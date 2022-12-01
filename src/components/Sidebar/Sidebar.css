@@ -2,9 +2,9 @@
   --header-height: 3rem;
   --nav-width: 200px;
 
-  --first-color: #f10086;
-  --first-color-alt: #f582a7;
-  --white-color: #ffddee;
+  --first-color: #2070ba;
+  --first-color-alt: #ffffff;
+  --white-color: #003087;
 }
 
 * {
@@ -54,7 +54,7 @@ main {
 .sidebar {
   position: fixed;
   top: 0;
-  left: -80%;
+  left: -75%;
   height: 100vh;
   width: var(--nav-width);
   background-color: var(--first-color);
@@ -133,6 +133,13 @@ main {
   .header-toggle {
     display: block;
   }
+
+  .profile-img {
+    width: 50px;
+    border-radius: 50%;
+    padding: .4rem;
+    margin-left: 8px !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -158,4 +165,18 @@ main {
   .space-toggle {
     padding-left: calc(var(--nav-width) + 188px);
   }
+}
+
+
+
+
+.logo {
+  height: 50px;
+}
+
+.profile-img {
+  width: 50px;
+  border-radius: 50%;
+  padding: .4rem;
+  margin-left: -20px;
 }

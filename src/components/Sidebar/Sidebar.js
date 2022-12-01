@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import './index.css';
+import './Sidebar.css';
 import { Link } from 'react-router-dom';
+import logo from '../../resources/logos/logo6.png'
+import profileImg from '../../resources/profileImg/Pro.jpg'
 
 const Sidebar = () => {
   const [show, setShow] = useState(false);
@@ -8,10 +10,11 @@ const Sidebar = () => {
   return (
     <main className={show ? 'space-toggle' : null}>
       <header className={`header ${show ? 'space-toggle' : null}`}>
-        <div className='header-toggle' onClick={() => setShow(!show)}>
-          <i className={`fas fa-bars ${show ? 'fa-solid fa-xmark' : null}`}></i>
+        <div className='header-toggle d-flex align-items-center'>
+          <i onClick={() => setShow(!show)} className={`fas text-white header-toggle fa-bars ${show ? 'fa-solid fa-xmark' : null}`}></i>
+          <Link to='/result'><img className='profile-img' src={profileImg} alt="" /></Link>
         </div>
-        <h1>hello</h1>
+        <img className='logo' src={logo} alt="" />
       </header>
 
       <aside className={`sidebar ${show ? 'show' : null}`}>
@@ -48,7 +51,7 @@ const Sidebar = () => {
           </Link>
         </nav>
       </aside>
-    </main>
+    </main >
   );
 };
 
