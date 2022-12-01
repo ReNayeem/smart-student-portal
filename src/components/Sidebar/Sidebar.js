@@ -27,9 +27,9 @@ const Sidebar = () => {
                 <i className='fas fa-tachometer-alt nav-link-icon'></i>
                 <span className='nav-link-name'>Dashboard</span>
               </Link>
-              <Link to='/hotel' className='nav-link'>
+              <Link to='/result' className='nav-link'>
                 <i className='fas fa-hotel nav-link-icon'></i>
-                <span className='nav-link-name'>Hotel</span>
+                <span className='nav-link-name'>Live Result</span>
               </Link>
               <Link to='/gallery' className='nav-link'>
                 <i className='fas fa-image nav-link-icon'></i>
@@ -48,8 +48,6 @@ const Sidebar = () => {
           </Link>
         </nav>
       </aside>
-
-      <h1>Content</h1>
     </main>
   );
 };
