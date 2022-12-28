@@ -42,10 +42,13 @@ const Sidebar = () => {
                 <i className='fas fa-dollar-sign nav-link-icon'></i>
                 <span className='nav-link-name'>Transaction</span>
               </Link>
+              <Link>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente adipisci mollitia at vel officia quos eaque maiores, soluta labore, tempore, exercitationem reprehenderit! Ducimus nesciunt ad tempore alias exercitationem inventore quae quis, dolorum repudiandae dolore dignissimos, accusamus quod fugiat unde nihil at dolorem dicta totam doloremque autem cupiditate? Magnam aut necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, libero! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus blanditiis veritatis quaerat quos quod minima sunt neque quam, soluta ab eius voluptates est corporis iure corrupti aspernatur consequuntur hic odit? Excepturi dolor rerum inventore nostrum porro vero exercitationem sapiente ad, cum hic autem, illum laboriosam eos maxime consequuntur laborum recusandae totam. Atque, accusamus. Rem, labore unde itaque sint illum ducimus, nam aspernatur natus aliquam optio adipisci eius beatae recusandae illo, velit sit? Nesciunt officia voluptatem temporibus impedit voluptas sunt facere tempore provident recusandae, deserunt tenetur quo, asperiores aliquam, quas non illo necessitatibus itaque quis suscipit sed quos? Suscipit, voluptate voluptates?</p>
+              </Link>
             </div>
           </div>
 
-          <Link to='/logout' className='nav-link'>
+          <Link to='/logout' className='nav-link nav-link-logout'>
             <i className='fas fa-sign-out nav-link-icon'></i>
             <span className='nav-link-name'>Logout</span>
           </Link>

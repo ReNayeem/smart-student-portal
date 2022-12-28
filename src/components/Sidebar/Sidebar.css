@@ -1,6 +1,6 @@
 :root {
   --header-height: 3rem;
-  --nav-width: 200px;
+  --nav-width: 256px;
 
   --first-color: #2070ba;
   --first-color-alt: #ffffff;
@@ -58,7 +58,7 @@ main {
   height: 100vh;
   width: var(--nav-width);
   background-color: var(--first-color);
-  padding-top: 1rem;
+  padding-top: 0rem !important;
   transition: 0.5s;
 }
 
@@ -68,6 +68,7 @@ main {
   justify-content: space-between;
   overflow: hidden;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .nav-logo,
@@ -79,7 +80,7 @@ main {
 }
 
 .nav-logo {
-  margin-bottom: 2rem;
+  margin: 1rem 0;
 }
 
 .nav-logo-icon {
