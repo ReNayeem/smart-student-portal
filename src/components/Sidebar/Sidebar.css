@@ -5,10 +5,13 @@
   --nav-width: 256px;
 
   --first-color: #fff;
-  /* --first-color: #2070ba; */
+  --active-side-color: #1d40fb;
+  --active-side-color-3: #1d3efbec;
   --first-color-alt: #0d0906;
   --white-color: #fff;
-  /* --white-color: #003087; */
+  --active-side-color-2: #003087;
+  --non-active-color: #bcbbc1;
+  --on-active-color: #0d0906;
 
   --poppins: 'Poppins', sans-serif;
   --roboto: 'Roboto', sans-serif;
@@ -138,6 +141,27 @@ main {
   /* Safari and Chrome */
 }
 
+.logo-original {
+  width: 50px;
+  border-radius: 50%;
+  margin: 1rem 0rem;
+  padding: .2rem;
+}
+
+.site-name {
+  margin: .8rem 0rem;
+  padding: .2rem;
+  padding-left: 1rem;
+  font-weight: 700;
+  font-size: 13px;
+  color: rgb(61, 61, 61);
+}
+
+.site-name span {
+  color: rgb(175, 175, 175);
+  font-weight: 500;
+}
+
 .nav-logo,
 .nav-link {
   display: grid;
@@ -168,14 +192,54 @@ main {
 
 .nav-link {
   position: relative;
-  color: black;
+  color: var(--non-active-color);
   transition: 0.5s;
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 .nav-link:hover {
-  color: var(--white-color);
-  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--on-active-color);
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+a {
+  color: black !important;
+}
+
+.active-link {
+  color: black;
+  text-decoration: none;
+}
+
+.active-link i {
+  color: var(--active-side-color-3);
+}
+
+.active-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 38px;
+  width: 6px;
+  background-color: var(--active-side-color);
+}
+
+.link {
+  color: var(--non-active-color) !important;
+  transition: color 1s;
+}
+
+.nav-link-name {
+  transition: .3s all ease;
+}
+
+.nav-link:hover {
+  color: rgba(17, 70, 230, 0.425) !important;
+}
+
+.nav-link .nav-link-name:hover {
+  color: rgb(158, 158, 158) !important;
 }
 
 .nav-link-logout {
@@ -184,20 +248,24 @@ main {
 }
 
 .active {
-  color: var(--white-color);
-  background-color: rgba(0, 0, 0, 0.1);
+  /* color: var(--on-active-color); */
+  /* background-color: rgba(0, 0, 0, 0.1); */
 }
 
-.active::before {
+/* .active::before {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
   height: 38px;
-  width: 3px;
-  background-color: var(--white-color);
+  width: 6px;
+  background-color: var(--active-side-color);
   transition: 0.5s;
-}
+} */
+
+/* .nav-link i {
+  color: var(--active-side-color-3);
+} */
 
 .show {
   left: 0;
