@@ -141,6 +141,19 @@ main {
   /* Safari and Chrome */
 }
 
+.title {
+  font-size: 45px;
+  margin: 1rem 0rem;
+  padding: .2rem;
+  font-weight: 700;
+}
+
+.title span {
+  color: rgb(202, 0, 40);
+  border-radius: 50%;
+  font-family: var(--roboto);
+}
+
 .logo-original {
   width: 50px;
   border-radius: 50%;
@@ -193,7 +206,7 @@ main {
 .nav-link {
   position: relative;
   color: var(--non-active-color);
-  transition: 0.5s;
+  /* transition: 1s all ease; */
   margin-bottom: .5rem;
 }
 
@@ -227,11 +240,11 @@ a {
 
 .link {
   color: var(--non-active-color) !important;
-  transition: color 1s;
+  /* transition: color 1s; */
 }
 
 .nav-link-name {
-  transition: .3s all ease;
+  /* transition: 1s all ease; */
 }
 
 .nav-link:hover {

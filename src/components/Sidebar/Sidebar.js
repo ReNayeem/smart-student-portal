@@ -26,7 +26,9 @@ const Sidebar = () => {
               <span className='nav-logo-name'>Homepage</span>
             </NavLink> */}
 
-            <div className='d-flex align-items-center mt-5 mb-4 ms-3'>
+            <h1 className='ms-3 mt-3 title'>Class<span>.</span></h1>
+
+            <div className='d-flex align-items-center mt-3 mb-4 ms-3'>
               <img className='logo-original' src={logoOriginal} alt="" />
               <p className='site-name'>Smart Student <br /><span>Portal</span></p>
             </div>
@@ -44,7 +46,7 @@ const Sidebar = () => {
                 <i className='fas fa-image nav-link-icon'></i>
                 <span className='nav-link-name'>Gallery</span>
               </NavLink>
-              <NavLink to='/transaction' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+              <NavLink to='/home' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
                 <i className='fas fa-dollar-sign nav-link-icon'></i>
                 <span className='nav-link-name'>Transaction</span>
               </NavLink>
