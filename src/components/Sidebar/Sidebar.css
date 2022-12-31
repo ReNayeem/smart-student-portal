@@ -4,9 +4,11 @@
   --header-height: 3rem;
   --nav-width: 256px;
 
-  --first-color: #2070ba;
-  --first-color-alt: #ffffff;
-  --white-color: #003087;
+  --first-color: #fff;
+  /* --first-color: #2070ba; */
+  --first-color-alt: #0d0906;
+  --white-color: #fff;
+  /* --white-color: #003087; */
 
   --poppins: 'Poppins', sans-serif;
   --roboto: 'Roboto', sans-serif;
@@ -99,7 +101,7 @@ main {
 .header-toggle {
   font-size: 1.25rem;
   cursor: pointer;
-  color: var(--first-color);
+  color: black;
   display: none;
 }
 
@@ -144,24 +146,29 @@ main {
   padding: 0.5rem 0 0.5rem 1.5rem;
 }
 
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
 .nav-logo {
   margin: 1rem 0;
 }
 
 .nav-logo-icon {
   font-size: 1.25rem;
-  color: var(--white-color);
+  color: black;
   cursor: pointer;
 }
 
 .nav-logo-name {
   font-weight: 700;
-  color: var(--white-color);
+  color: black;
 }
 
 .nav-link {
   position: relative;
-  color: var(--first-color-alt);
+  color: black;
   transition: 0.5s;
   margin-bottom: 1.5rem;
 }
@@ -243,6 +250,10 @@ main {
 
 .logo {
   height: 50px;
+  background-color: #2070ba;
+  margin-right: .9px;
+  padding: .2rem 0rem;
+  border-radius: .5rem;
 }
 
 .profile-img {
