@@ -19,7 +19,7 @@ const Sidebar = () => {
 
       <aside className={`sidebar ${show ? 'show' : null}`}>
         <nav className='nav'>
-          <div>
+          <div className='nav2'>
             <Link to='/' className='nav-logo'>
               <i className={`fas fa-home-alt nav-logo-icon`}></i>
               <span className='nav-logo-name'>Homepage</span>
@@ -43,7 +43,7 @@ const Sidebar = () => {
                 <span className='nav-link-name'>Transaction</span>
               </Link>
               <Link>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente adipisci mollitia at vel officia quos eaque maiores, soluta labore, tempore, exercitationem reprehenderit! Ducimus nesciunt ad tempore alias exercitationem inventore quae quis, dolorum repudiandae dolore dignissimos, accusamus quod fugiat unde nihil at dolorem dicta totam doloremque autem cupiditate? Magnam aut necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, libero! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus blanditiis veritatis quaerat quos quod minima sunt neque quam, soluta ab eius voluptates est corporis iure corrupti aspernatur consequuntur hic odit? Excepturi dolor rerum inventore nostrum porro vero exercitationem sapiente ad, cum hic autem, illum laboriosam eos maxime consequuntur laborum recusandae totam. Atque, accusamus. Rem, labore unde itaque sint illum ducimus, nam aspernatur natus aliquam optio adipisci eius beatae recusandae illo, velit sit? Nesciunt officia voluptatem temporibus impedit voluptas sunt facere tempore provident recusandae, deserunt tenetur quo, asperiores aliquam, quas non illo necessitatibus itaque quis suscipit sed quos? Suscipit, voluptate voluptates?</p>
+                <p className='pb-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente adipisci mollitia at vel officia quos eaque maiores, soluta labore, tempore, exercitationem reprehenderit! Ducimus nesciunt ad tempore alias exercitationem inventore quae quis, dolorum repudiandae dolore dignissimos, accusamus quod fugiat unde nihil at dolorem dicta totam doloremque autem cupiditate? Magnam aut necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, libero! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus blanditiis veritatis quaerat quos quod minima sunt neque quam, soluta ab eius voluptates est corporis iure corrupti aspernatur consequuntur hic odit? Excepturi dolor rerum inventore nostrum porro vero exercitationem sapiente ad, cum hic autem, illum laboriosam eos maxime consequuntur laborum recusandae totam. Atque, accusamus. Rem, labore unde itaque sint illum ducimus, nam aspernatur natus aliquam optio adipisci eius beatae recusandae illo, velit sit? Nesciunt officia voluptatem temporibus impedit voluptas sunt facere tempore provident recusandae, deserunt tenetur quo, asperiores aliquam, quas non illo necessitatibus itaque quis suscipit sed quos? Suscipit, voluptate voluptates?</p>
               </Link>
             </div>
           </div>
