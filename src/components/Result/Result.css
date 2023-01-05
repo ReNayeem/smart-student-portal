@@ -12,6 +12,10 @@
     text-align: justify;
 }
 
+.custom-padding {
+    padding: 0 1rem;
+}
+
 @media screen and (max-width: 768px) {
     .custom-container {
         padding-left: 0rem;
