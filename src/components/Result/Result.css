@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --header-height: 3rem;
     --nav-width: 200px;
 
@@ -8,13 +8,13 @@
 }
 
 .custom-container {
-    padding-left: calc(var(--nav-width) + 1rem);
-    padding-right: 1rem;
+    padding-left: var(--nav-width);
     text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
     .custom-container {
-        padding: 0 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
-} */
+}

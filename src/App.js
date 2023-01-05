@@ -10,10 +10,12 @@ function App() {
 
     <div>
       <Sidebar></Sidebar>
-      <Routes>
-        <Route path='/result' element={<Result></Result>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
-      </Routes>
+      <div>
+        <Routes>
+          <Route path='/result' element={<Result></Result>}></Route>
+          <Route path='/home' element={<Home></Home>}></Route>
+        </Routes>
+      </div>
     </div>
 
 
