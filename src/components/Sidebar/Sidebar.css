@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
 
 :root {
-  --header-height: 3rem;
+  --header-height: 40px;
   --nav-width: 256px;
 
   --first-color: #fff;
@@ -80,7 +80,7 @@ ul {
 
 main {
   position: relative;
-  margin: var(--header-height) 0 0 0;
+  margin: 56px 0 0 0;
   padding: 0 1rem;
   font-size: 1rem;
   /* font-family: 'Nunito Sans', sans-serif; */
@@ -91,7 +91,7 @@ main {
   position: fixed !important;
   top: 0;
   left: 0;
-  height: var(--header-height);
+  height: 56px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -330,9 +330,9 @@ a {
 
 
 .logo {
-  height: 50px;
+  height: 40px;
   background-color: #2070ba;
-  margin-right: .9px;
+  margin-right: .9rem;
   padding: .2rem 0rem;
   border-radius: .5rem;
 }
