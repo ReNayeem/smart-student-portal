@@ -112,6 +112,7 @@ main {
   position: fixed;
   top: 0;
   left: -75%;
+  /* 240 95 */
   height: 100vh;
   width: var(--nav-width);
   background-color: var(--first-color);
@@ -255,6 +256,10 @@ a {
   color: rgb(158, 158, 158) !important;
 }
 
+.nav-last-one {
+  padding-bottom: 4rem;
+}
+
 .nav-link-logout {
   position: sticky;
   top: 100%;
@@ -324,6 +329,13 @@ a {
   .space-toggle {
     padding-left: calc(var(--nav-width) + 188px);
   }
+}
+
+@media screen and (max-width: 280px) {
+  :root {
+    --nav-width: 220px;
+  }
+
 }
 
 

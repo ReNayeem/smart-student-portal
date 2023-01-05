@@ -38,17 +38,45 @@ const Sidebar = () => {
                 <i className='fas fa-tachometer-alt nav-link-icon'></i>
                 <span className='nav-link-name'>Dashboard</span>
               </NavLink>
+              <NavLink to='/profile' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Profile</span>
+              </NavLink>
+              <NavLink to='/transactions' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Transactions</span>
+              </NavLink>
+              <NavLink to='/registration' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Registration</span>
+              </NavLink>
+              <NavLink to='/courses' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Courses</span>
+              </NavLink>
+              <NavLink to='/drop-semester' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Drop Semester</span>
+              </NavLink>
+              <NavLink to='/course-result' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Course Result</span>
+              </NavLink>
               <NavLink to='/result' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
                 <i className='fas fa-hotel nav-link-icon'></i>
                 <span className='nav-link-name'>Live Result</span>
               </NavLink>
-              <NavLink to='/gallery' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
-                <i className='fas fa-image nav-link-icon'></i>
-                <span className='nav-link-name'>Gallery</span>
+              <NavLink to='/semester-result' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Semester Result</span>
               </NavLink>
-              <NavLink to='/home' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
-                <i className='fas fa-dollar-sign nav-link-icon'></i>
-                <span className='nav-link-name'>Transaction</span>
+              <NavLink to='/routine' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Routine</span>
+              </NavLink>
+              <NavLink to='/notices' className={({ isActive }) => (isActive ? "active-link nav-link nav-last-one" : "link nav-link nav-last-one")}>
+                <i className='fas fa-tachometer-alt nav-link-icon'></i>
+                <span className='nav-link-name'>Notices</span>
               </NavLink>
               <NavLink>
                 {/* <p className='pb-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente adipisci mollitia at vel officia quos eaque maiores, soluta labore, tempore, exercitationem reprehenderit! Ducimus nesciunt ad tempore alias exercitationem inventore quae quis, dolorum repudiandae dolore dignissimos, accusamus quod fugiat unde nihil at dolorem dicta totam doloremque autem cupiditate? Magnam aut necessitatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, libero! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus blanditiis veritatis quaerat quos quod minima sunt neque quam, soluta ab eius voluptates est corporis iure corrupti aspernatur consequuntur hic odit? Excepturi dolor rerum inventore nostrum porro vero exercitationem sapiente ad, cum hic autem, illum laboriosam eos maxime consequuntur laborum recusandae totam. Atque, accusamus. Rem, labore unde itaque sint illum ducimus, nam aspernatur natus aliquam optio adipisci eius beatae recusandae illo, velit sit? Nesciunt officia voluptatem temporibus impedit voluptas sunt facere tempore provident recusandae, deserunt tenetur quo, asperiores aliquam, quas non illo necessitatibus itaque quis suscipit sed quos? Suscipit, voluptate voluptates?</p> */}
