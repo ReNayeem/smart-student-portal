@@ -112,6 +112,7 @@ main {
   position: fixed;
   top: 0;
   left: -75%;
+  z-index: 1;
   /* 240 95 */
   height: 100vh;
   width: var(--nav-width);
