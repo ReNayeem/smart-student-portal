@@ -115,9 +115,16 @@ main {
   /* 240 95 */
   height: 100vh;
   width: var(--nav-width);
-  background-color: var(--first-color);
   padding-top: 0rem !important;
   transition: 0.5s;
+}
+
+#light .sidebar {
+  background-color: var(--first-color);
+}
+
+#dark .sidebar {
+  background-color: #333333;
 }
 
 .nav {
@@ -364,4 +371,12 @@ a {
   border-radius: 50%;
   padding: .4rem;
   margin-left: -20px;
+}
+
+#light .hola {
+  color: #00a149;
+}
+
+#dark .hola {
+  color: rgb(230, 0, 0);
 }
