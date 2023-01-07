@@ -7,41 +7,59 @@ const Dashboard = () => {
 
     const data = [
         {
-            "month": "Mar",
+            "semester": "Fall 2019",
             "investment": 100000,
-            "sell": 241,
+            "CGPA": 3.33,
             "revenue": 10401
         },
         {
-            "month": "Apr",
+            "semester": "Spring 2020",
             "investment": 200000,
-            "sell": 423,
+            "CGPA": 3.86,
             "revenue": 24500
         },
         {
-            "month": "May",
-            "investment": 500000,
-            "sell": 726,
-            "revenue": 67010
+            "semester": "Summer 2020",
+            "investment": 200000,
+            "CGPA": 3.86,
+            "revenue": 24500
         },
         {
-            "month": "Jun",
-            "investment": 500000,
-            "sell": 529,
-            "revenue": 40405
+            "semester": "Fall 2020",
+            "investment": 200000,
+            "CGPA": 3.79,
+            "revenue": 24500
         },
         {
-            "month": "Jul",
-            "investment": 600000,
-            "sell": 601,
-            "revenue": 50900
+            "semester": "Spring 2021",
+            "investment": 200000,
+            "CGPA": 3.79,
+            "revenue": 24500
         },
         {
-            "month": "Aug",
-            "investment": 700000,
-            "sell": 670,
-            "revenue": 61000
-        }
+            "semester": "Summer 2021",
+            "investment": 200000,
+            "CGPA": 3.81,
+            "revenue": 24500
+        },
+        {
+            "semester": "Fall 2021",
+            "investment": 200000,
+            "CGPA": 3.95,
+            "revenue": 24500
+        },
+        {
+            "semester": "Spring 2022",
+            "investment": 200000,
+            "CGPA": 3.60,
+            "revenue": 24500
+        },
+        {
+            "semester": "Fall 2022",
+            "investment": 200000,
+            "CGPA": 3.12,
+            "revenue": 24500
+        },
     ]
 
 
@@ -49,7 +67,7 @@ const Dashboard = () => {
         <div className='custom-container'>
             <div className='custom-padding custom-container2'>
 
-                <div className='d-flex'>
+                <div className=''>
                     <div className='custom-width'>
 
 
@@ -63,22 +81,22 @@ const Dashboard = () => {
                             </div> */}
                             <div>
                                 <div className='' >
-                                    <ResponsiveContainer className='check'>
+                                    <ResponsiveContainer className='line-chart'>
                                         <LineChart
                                             data={data}
                                             margin={{
                                                 top: 5,
-                                                right: 30,
-                                                left: 20,
+                                                right: 0,
+                                                left: -20,
                                                 bottom: 5,
                                             }}
                                         >
-                                            <CartesianGrid strokeDasharray="3 3" />
-                                            <XAxis dataKey="month" />
+                                            <CartesianGrid strokeDasharray=".1" />
+                                            <XAxis dataKey="semester" />
                                             <YAxis />
                                             <Tooltip />
                                             <Legend />
-                                            <Line type="monotone" dataKey="sell" stroke="#8884d8" activeDot={{ r: 8 }} />
+                                            <Line type="monotone" dataKey="CGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
 
                                         </LineChart>
 
@@ -100,7 +118,7 @@ const Dashboard = () => {
                                     }}
                                 >
                                     <CartesianGrid strokeDasharray="3 3" />
-                                    <XAxis dataKey="month" />
+                                    <XAxis dataKey="semester" />
                                     <YAxis />
                                     <Tooltip />
                                     <Area type="monotone" dataKey="investment" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
