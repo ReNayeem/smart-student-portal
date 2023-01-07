@@ -51,7 +51,7 @@ const Sidebar = () => {
               </div>
 
               <div className='nav-list'>
-                <NavLink to='/dashboard' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <NavLink to='/' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
                   <i className='fas fa-tachometer-alt nav-link-icon'></i>
                   <span className='nav-link-name'>Dashboard</span>
                 </NavLink>
