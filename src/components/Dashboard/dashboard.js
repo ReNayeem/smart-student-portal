@@ -5,35 +5,93 @@ import './Dashboard.css';
 const Dashboard = () => {
 
 
+    // const data = [
+    //     {
+    //         "semester": "Fall 2019",
+    //         "investment": 100000,
+    //         "CGPA": 3.33,
+    //         "revenue": 10401
+    //     },
+    //     {
+    //         "semester": "Spring 2020",
+    //         "investment": 200000,
+    //         "CGPA": 3.86,
+    //         "revenue": 24500
+    //     },
+    //     {
+    //         "semester": "Summer 2020",
+    //         "investment": 200000,
+    //         "CGPA": 3.86,
+    //         "revenue": 24500
+    //     },
+    //     {
+    //         "semester": "Fall 2020",
+    //         "investment": 200000,
+    //         "CGPA": 3.79,
+    //         "revenue": 24500
+    //     },
+    //     {
+    //         "semester": "Spring 2021",
+    //         "investment": 200000,
+    //         "CGPA": 3.79,
+    //         "revenue": 24500
+    //     },
+    //     {
+    //         "semester": "Summer 2021",
+    //         "investment": 200000,
+    //         "CGPA": 3.81,
+    //         "revenue": 24500
+    //     },
+    //     {
+    //         "semester": "Fall 2021",
+    //         "investment": 200000,
+    //         "CGPA": 3.95,
+    //         "revenue": 24500
+    //     },
+    //     {
+    //         "semester": "Spring 2022",
+    //         "investment": 200000,
+    //         "CGPA": 3.60,
+    //         "revenue": 24500
+    //     },
+    //     {
+    //         "semester": "Fall 2022",
+    //         "investment": 200000,
+    //         "CGPA": 3.12,
+    //         "revenue": 24500
+    //     },
+    // ]
+
+
     const data = [
         {
             "semester": "Fall 2019",
             "investment": 100000,
-            "CGPA": 3.33,
+            "CGPA": 2.33,
             "revenue": 10401
         },
         {
             "semester": "Spring 2020",
             "investment": 200000,
-            "CGPA": 3.86,
+            "CGPA": 2.86,
             "revenue": 24500
         },
         {
             "semester": "Summer 2020",
             "investment": 200000,
-            "CGPA": 3.86,
+            "CGPA": 2.56,
             "revenue": 24500
         },
         {
             "semester": "Fall 2020",
             "investment": 200000,
-            "CGPA": 3.79,
+            "CGPA": 3.20,
             "revenue": 24500
         },
         {
             "semester": "Spring 2021",
             "investment": 200000,
-            "CGPA": 3.79,
+            "CGPA": 3.00,
             "revenue": 24500
         },
         {
@@ -45,13 +103,13 @@ const Dashboard = () => {
         {
             "semester": "Fall 2021",
             "investment": 200000,
-            "CGPA": 3.95,
+            "CGPA": 2.22,
             "revenue": 24500
         },
         {
             "semester": "Spring 2022",
             "investment": 200000,
-            "CGPA": 3.60,
+            "CGPA": 2.90,
             "revenue": 24500
         },
         {
@@ -91,7 +149,7 @@ const Dashboard = () => {
                                                 bottom: 5,
                                             }}
                                         >
-                                            <CartesianGrid strokeDasharray=".1" />
+                                            <CartesianGrid strokeDasharray="3 3" />
                                             <XAxis dataKey="semester" />
                                             <YAxis />
                                             <Tooltip />
