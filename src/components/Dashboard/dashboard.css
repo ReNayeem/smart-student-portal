@@ -37,6 +37,12 @@
     width: calc(50vw - 200px);
 }
 
+.active-dashboard {
+    font-family: var(--roboto);
+    color: #a2a7c5;
+    margin: 0;
+}
+
 .flip-card {
     background-color: transparent;
     width: 190px;

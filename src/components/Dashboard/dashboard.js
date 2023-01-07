@@ -14,18 +14,7 @@ const Dashboard = () => {
                         <p className='hi-dashboard'>Welcome back Nayeem, ready for another day of your UNI life?🔥</p>
 
 
-                        <div class="flip-card mt-3">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <p class="title-card">FLIP CARD</p>
-                                    <p>Hover Me</p>
-                                </div>
-                                <div class="flip-card-back">
-                                    <p class="title-card">BACK</p>
-                                    <p>Leave Me</p>
-                                </div>
-                            </div>
-                        </div>
+                        <h3 className='active-dashboard mt-3'>Active Courses</h3>
                     </div>
                     <div>
                         <h3 className='pt-4 welcome-dashboard'>Upcoming</h3>
