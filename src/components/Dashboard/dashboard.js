@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, Tooltip, Legend, Line, LineChart, XAxis, YAxis, AreaChart, Area } from 'recharts';
+import { CartesianGrid, Tooltip, Legend, Line, LineChart, XAxis, YAxis, AreaChart, Area, ResponsiveContainer } from 'recharts';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -47,7 +47,7 @@ const Dashboard = () => {
 
     return (
         <div className='custom-container'>
-            <div className='custom-padding'>
+            <div className='custom-padding custom-container2'>
 
                 <div className='d-flex'>
                     <div className='custom-width'>
@@ -61,27 +61,28 @@ const Dashboard = () => {
                             {/* <div className='d-flex align-items-center mb-5'>
                                 <h3 className='active-dashboard mt-3'>Semester SGPA</h3>
                             </div> */}
-                            <div className=''>
-                                <div className=''>
-                                    <LineChart
-                                        width={500}
-                                        height={425}
-                                        data={data}
-                                        margin={{
-                                            top: 5,
-                                            right: 30,
-                                            left: 20,
-                                            bottom: 5,
-                                        }}
-                                    >
-                                        <CartesianGrid strokeDasharray="3 3" />
-                                        <XAxis dataKey="month" />
-                                        <YAxis />
-                                        <Tooltip />
-                                        <Legend />
-                                        <Line type="monotone" dataKey="sell" stroke="#8884d8" activeDot={{ r: 8 }} />
+                            <div>
+                                <div className='' >
+                                    <ResponsiveContainer className='check'>
+                                        <LineChart
+                                            data={data}
+                                            margin={{
+                                                top: 5,
+                                                right: 30,
+                                                left: 20,
+                                                bottom: 5,
+                                            }}
+                                        >
+                                            <CartesianGrid strokeDasharray="3 3" />
+                                            <XAxis dataKey="month" />
+                                            <YAxis />
+                                            <Tooltip />
+                                            <Legend />
+                                            <Line type="monotone" dataKey="sell" stroke="#8884d8" activeDot={{ r: 8 }} />
 
-                                    </LineChart>
+                                        </LineChart>
+
+                                    </ResponsiveContainer>
                                 </div>
                             </div>
 

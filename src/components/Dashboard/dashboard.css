@@ -21,6 +21,18 @@
     --manrope: 'Manrope', sans-serif;
 }
 
+.custom-container2 {
+    width: 100%;
+    max-width: 1408px;
+    justify-content: center;
+    display: flex;
+}
+
+.check {
+    width: 600px !important;
+    height: 400px !important;
+}
+
 .hi-dashboard {
     color: var(--fade-color);
     margin: 0;
