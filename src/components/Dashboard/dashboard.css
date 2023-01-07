@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+
+:root {
+    --header-height: 40px;
+    --nav-width: 256px;
+
+    --first-color: #fff;
+    --active-side-color: #1d40fb;
+    --active-side-color-3: #1d3efbec;
+    --first-color-alt: #0d0906;
+    --white-color: #fff;
+    --active-side-color-2: #003087;
+    --non-active-color: #bcbbc1;
+    --fade-color: #a0a0a0;
+    --on-active-color: #0d0906;
+    --not-black: rgb(36, 36, 36);
+
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+}
+
+.hi-dashboard {
+    color: var(--fade-color);
+    margin: 0;
+    font-family: var(--poppins);
+}
+
+.welcome-dashboard {
+    font-family: var(--roboto);
+    color: var(--not-black);
+}

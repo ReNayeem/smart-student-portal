@@ -166,7 +166,7 @@ main {
 .logo-original {
   width: 50px;
   border-radius: 50%;
-  margin: 1rem 0rem;
+  margin: .9rem 0rem;
   padding: .2rem;
 }
 
@@ -344,7 +344,7 @@ a {
 
 @media screen and (max-width: 280px) {
   :root {
-    --nav-width: 220px;
+    --nav-width: 220px !important;
   }
 
 }
