@@ -215,7 +215,7 @@
 
 @media screen and (max-width: 480px) {
     .line-chart {
-        width: 340px !important;
+        width: 370px !important;
         height: 200px !important;
         font-size: 10px;
     }
@@ -223,7 +223,15 @@
 
 @media screen and (max-width: 374px) {
     .line-chart {
-        width: 260px !important;
+        width: 340px !important;
+        height: 200px !important;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .line-chart {
+        width: 270px !important;
         height: 200px !important;
         font-size: 10px;
     }
