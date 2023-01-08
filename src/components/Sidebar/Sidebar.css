@@ -101,6 +101,10 @@ main {
   transition: 0.5s;
 }
 
+.header2 {
+  display: none;
+}
+
 .header-toggle {
   font-size: 1.25rem;
   cursor: pointer;
@@ -307,6 +311,11 @@ a {
 @media screen and (max-width: 767px) {
   .header-toggle {
     display: block;
+  }
+
+  .header2 {
+    display: block;
+    display: flex;
   }
 
   .profile-img {

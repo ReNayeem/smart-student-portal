@@ -27,7 +27,7 @@ const Sidebar = () => {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <main className={show ? 'space-toggle' : null} id={theme}>
-        <header className={`header ${show ? 'space-toggle' : null}`}>
+        <header className={`header header2 ${show ? 'space-toggle' : null}`}>
           <div className='header-toggle d-flex align-items-center'>
             <i onClick={() => setShow(!show)} className={`fas  header-toggle fa-bars ${show ? 'fa-solid fa-xmark' : null}`}></i>
             <NavLink to='/result'><img className='profile-img' src={profileImg} alt="" /></NavLink>
