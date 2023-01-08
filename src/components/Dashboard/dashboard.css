@@ -109,3 +109,94 @@
     color: white;
     transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 767px) {
+    .custom-padding-2 {
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .line-chart {
+        width: 1308px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    .line-chart {
+        width: 1208px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .line-chart {
+        width: 1108px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .line-chart {
+        width: 1008px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .line-chart {
+        width: 908px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .line-chart {
+        width: 808px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .line-chart {
+        width: 708px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .line-chart {
+        width: 608px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .line-chart {
+        width: 508px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .line-chart {
+        width: 450px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .line-chart {
+        width: 350px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .line-chart {
+        width: 250px !important;
+        height: 200px !important;
+        font-size: 10px;
+    }
+}

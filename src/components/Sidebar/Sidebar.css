@@ -353,7 +353,7 @@ a {
 
 @media screen and (max-width: 280px) {
   :root {
-    --nav-width: 220px !important;
+    --nav-width: 210px !important;
   }
 
 }

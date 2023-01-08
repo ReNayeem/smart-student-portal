@@ -118,6 +118,11 @@ const Dashboard = () => {
             "CGPA": 3.12,
             "revenue": 24500
         },
+        {
+            "semester": "Spring 2023",
+            "investment": 200000,
+            "revenue": 24500
+        },
     ]
 
 
@@ -128,9 +133,9 @@ const Dashboard = () => {
                 <div className=''>
                     <div className='custom-width'>
 
+                        <p className='custom-padding-2 hi-dashboard'>Hi Nayeem</p>
+                        <h1 className='welcome-dashboard'>Welcome to Dashboard</h1>
 
-                        <h1 className='pt-4 welcome-dashboard'>My Dashboard</h1>
-                        <p className='hi-dashboard'>Welcome back Nayeem, ready for another day of your UNI life?🔥</p>
 
 
                         <div className='d-flex mt-5'>
@@ -145,7 +150,7 @@ const Dashboard = () => {
                                             margin={{
                                                 top: 5,
                                                 right: 0,
-                                                left: -20,
+                                                left: -28,
                                                 bottom: 5,
                                             }}
                                         >
@@ -185,7 +190,7 @@ const Dashboard = () => {
                             </div> */}
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <h3 className='pt-4 welcome-dashboard'>Upcoming</h3>
                         <div className='d-flex mt-3'>
                             <div className='me-4 d-flex align-items-center'>
@@ -204,7 +209,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -10,6 +10,7 @@
 .custom-container {
     padding-left: var(--nav-width);
     text-align: justify;
+    margin-top: -15px;
 }
 
 .custom-padding {
@@ -20,5 +21,11 @@
     .custom-container {
         padding-left: 0rem;
         padding-right: 0rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .custom-container {
+        margin-top: 0px;
     }
 }
