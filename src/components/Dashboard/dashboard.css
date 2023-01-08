@@ -211,6 +211,10 @@
         height: 200px !important;
         font-size: 10px;
     }
+
+    .fig-cgpa-2 {
+        margin-top: -50px !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -237,6 +241,24 @@
     }
 }
 
-.carte {
+li .recharts-surface {
     display: none !important;
+}
+
+.recharts-legend-item-text {
+    display: none;
+}
+
+.fig-cgpa {
+    text-align: center;
+    margin-top: -30px;
+    font-family: var(--roboto);
+    color: var(--active-side-color);
+}
+
+.fig-cgpa-2 {
+    text-align: center;
+    margin-top: -60px;
+    font-family: var(--roboto);
+    color: var(--active-side-color);
 }

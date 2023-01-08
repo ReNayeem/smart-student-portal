@@ -164,6 +164,7 @@ const Dashboard = () => {
                                         </LineChart>
 
                                     </ResponsiveContainer>
+                                    <p className='fig-cgpa'>CGPA</p>
                                 </div>
                                 <div className='line-chart-2' >
                                     <ResponsiveContainer className='line-chart'>
@@ -186,6 +187,7 @@ const Dashboard = () => {
                                         </LineChart>
 
                                     </ResponsiveContainer>
+                                    <p className='fig-cgpa-2'>CGPA</p>
                                 </div>
                             </div>
 
