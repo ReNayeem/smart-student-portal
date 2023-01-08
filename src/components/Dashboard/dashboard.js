@@ -143,7 +143,7 @@ const Dashboard = () => {
                                 <h3 className='active-dashboard mt-3'>Semester SGPA</h3>
                             </div> */}
                             <div>
-                                <div className='' >
+                                <div className='line-chart-1' >
                                     <ResponsiveContainer className='line-chart'>
                                         <LineChart
                                             data={data}
@@ -156,6 +156,28 @@ const Dashboard = () => {
                                         >
                                             <CartesianGrid strokeDasharray="3 3" />
                                             <XAxis dataKey="semester" />
+                                            <YAxis />
+                                            <Tooltip />
+                                            <Legend />
+                                            <Line type="monotone" dataKey="CGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+
+                                        </LineChart>
+
+                                    </ResponsiveContainer>
+                                </div>
+                                <div className='line-chart-2' >
+                                    <ResponsiveContainer className='line-chart'>
+                                        <LineChart
+                                            data={data}
+                                            margin={{
+                                                top: 5,
+                                                right: 20,
+                                                left: -28,
+                                                bottom: 5,
+                                            }}
+                                        >
+                                            <CartesianGrid strokeDasharray="3 3" />
+                                            <XAxis dataKey="semester" ticks={[1.2, 2.8, 4.4, 6]} />
                                             <YAxis />
                                             <Tooltip />
                                             <Legend />

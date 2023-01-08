@@ -31,6 +31,10 @@
     height: 400px !important;
 }
 
+.line-chart-2 {
+    display: none;
+}
+
 .hi-dashboard {
     color: var(--fade-color);
     margin: 0;
@@ -156,6 +160,14 @@
         width: 808px !important;
         height: 400px !important;
     }
+
+    .line-chart-1 {
+        display: none;
+    }
+
+    .line-chart-2 {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -188,15 +200,35 @@
 
 @media screen and (max-width: 680px) {
     .line-chart {
-        width: 350px !important;
-        height: 400px !important;
+        width: 450px !important;
+        height: 350px !important;
     }
 }
 
 @media screen and (max-width: 580px) {
     .line-chart {
-        width: 250px !important;
+        width: 400px !important;
         height: 200px !important;
         font-size: 10px;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .line-chart {
+        width: 340px !important;
+        height: 200px !important;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .line-chart {
+        width: 260px !important;
+        height: 200px !important;
+        font-size: 10px;
+    }
+}
+
+.carte {
+    display: none !important;
 }
