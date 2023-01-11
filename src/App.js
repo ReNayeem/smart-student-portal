@@ -6,12 +6,14 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Profile from './components/Profile/profile';
 import Footer from './components/Footer/footer';
 import './App.css'
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
 
 
     <div className='App'>
+      <Navbar></Navbar>
       <Sidebar></Sidebar>
       <div>
         <Routes>

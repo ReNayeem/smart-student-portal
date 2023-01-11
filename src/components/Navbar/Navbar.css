@@ -1,0 +1,36 @@
+.custom-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-navbar2 {
+    width: 100%;
+    max-width: 1408px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px rgba(17, 17, 17, 0.247);
+}
+
+.profile-img2 {
+    width: 50px;
+    border-radius: 50%;
+    padding: .4rem;
+}
+
+.logo2 {
+    height: 40px;
+    background-color: #2070ba;
+    margin-right: .4rem;
+    padding: .2rem 0rem;
+    border-radius: .5rem;
+}
+
+@media screen and (max-width: 767px) {
+    .custom-navbar {
+        display: none;
+    }
+}
