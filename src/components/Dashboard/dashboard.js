@@ -1,6 +1,7 @@
 import React from 'react';
 import { CartesianGrid, Tooltip, Legend, Line, LineChart, XAxis, YAxis, AreaChart, Area, ResponsiveContainer } from 'recharts';
 import './Dashboard.css';
+import study from '../../resources/images/study.png'
 
 const Dashboard = () => {
 
@@ -130,18 +131,34 @@ const Dashboard = () => {
         <div className='custom-container'>
             <div className='custom-padding custom-container2'>
 
+
                 <div className=''>
                     <div className='custom-width'>
+                        <div className='d-flex'>
+                            <div className='d-flex dashboard-first-first-section justify-content-between flex-wrap'>
+                                <div className='dashboard-profile-detail'>
+                                    <h3>Your Profile</h3>
+                                    <p><span>Hi Nayeem.</span> You have completed <span>70%</span> of your weekly targets. Keep learning with us like this.</p>
+                                    <button>View Profile</button>
+                                </div>
+                                <div>
+                                    <img className='study-img' src={study} alt="" />
+                                </div>
+                            </div>
+                            <div className='dashboard-first-second-section'>
+                                <img className='temp' src={study} alt="" />
+                            </div>
+                        </div>
 
-                        <p className='custom-padding-2 hi-dashboard'>Hi Nayeem</p>
+                        {/* <p className='custom-padding-2 hi-dashboard'>Hi Nayeem</p>
                         <h1 className='welcome-dashboard'>Welcome to Dashboard</h1>
 
 
 
-                        <div className='d-flex mt-5'>
-                            {/* <div className='d-flex align-items-center mb-5'>
+                        <div className='d-flex'>
+                            <div className='d-flex align-items-center mb-5'>
                                 <h3 className='active-dashboard mt-3'>Semester SGPA</h3>
-                            </div> */}
+                            </div>
                             <div>
                                 <div className='line-chart-1' >
                                     <ResponsiveContainer className='line-chart'>
@@ -189,9 +206,9 @@ const Dashboard = () => {
                                     </ResponsiveContainer>
                                     <p className='fig-cgpa-2'>CGPA</p>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            {/* <div className='p-4'>
+                        {/* <div className='p-4'>
                                 <h3 className='line-chart-text'>Investment VS Revenue</h3>
                                 <AreaChart
                                     width={500}
@@ -212,9 +229,9 @@ const Dashboard = () => {
                                     <Area type="monotone" dataKey="revenue" stackId="1" stroke="olive" fill="olive" />
                                 </AreaChart>
                             </div> */}
-                        </div>
                     </div>
-                    {/* <div>
+                </div>
+                {/* <div>
                         <h3 className='pt-4 welcome-dashboard'>Upcoming</h3>
                         <div className='d-flex mt-3'>
                             <div className='me-4 d-flex align-items-center'>
@@ -234,7 +251,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                     </div> */}
-                </div>
+                {/* </div> */}
             </div>
         </div>
     );

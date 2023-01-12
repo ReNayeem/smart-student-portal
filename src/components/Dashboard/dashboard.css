@@ -10,6 +10,8 @@
     --first-color-alt: #0d0906;
     --white-color: #fff;
     --active-side-color-2: #003087;
+    --button-color: #2070ba;
+    --text-color: #006dd3;
     --non-active-color: #bcbbc1;
     --fade-color: #a0a0a0;
     --on-active-color: #0d0906;
@@ -26,9 +28,74 @@
     display: flex;
 }
 
+.study-img {
+    width: 250px;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.dashboard-first-first-section {
+    width: 900px;
+    height: 250px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 85px 5px rgba(0, 0, 0, 0.171);
+    margin-right: 1rem;
+}
+
+.dashboard-profile-detail h3 {
+    color: #20444a;
+    font-family: var(--poppins);
+}
+
+.dashboard-profile-detail p {
+    font-family: var(--poppins);
+    color: var(--fade-color);
+    margin: 1rem 0rem;
+}
+
+.dashboard-profile-detail p span {
+    color: #20444a;
+    font-weight: 500;
+}
+
+.dashboard-profile-detail button {
+    border: 2px solid var(--button-color);
+    border-radius: .3rem;
+    padding: .2rem 1rem;
+    color: var(--button-color);
+    font-weight: 500;
+    font-family: var(--manrope);
+    transition: 1s all ease;
+}
+
+.dashboard-profile-detail button:hover {
+    background-color: var(--button-color);
+    color: var(--first-color);
+}
+
+.dashboard-profile-detail {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.dashboard-first-second-section {
+    width: 100%;
+    width: 508px;
+    margin-left: 1rem;
+}
+
+.temp {
+    height: 100%;
+    max-height: 250px;
+}
+
 .line-chart {
     width: 1408px !important;
     height: 400px !important;
+    margin-top: 2rem;
 }
 
 .line-chart-2 {
