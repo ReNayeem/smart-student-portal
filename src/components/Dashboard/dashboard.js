@@ -134,7 +134,7 @@ const Dashboard = () => {
 
                 <div className=''>
                     <div className='custom-width'>
-                        <div className='d-flex'>
+                        <div className='d-flex dashboard-first-section'>
                             <div className='d-flex dashboard-first-first-section justify-content-between flex-wrap'>
                                 <div className='dashboard-profile-detail'>
                                     <h3>Your Profile</h3>
