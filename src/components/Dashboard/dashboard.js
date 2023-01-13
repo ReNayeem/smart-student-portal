@@ -128,7 +128,7 @@ const Dashboard = () => {
 
 
     return (
-        <div className='custom-container'>
+        <div className='custom-container dashboard'>
             <div className='custom-padding custom-container2'>
 
 
@@ -146,7 +146,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                             <div className='dashboard-first-second-section'>
-                                <div className='temp'>
+                                <div>
                                     <div className='upcoming-one'>
                                         <h3>Web Engineering Quiz <br /><span><i class="fa-regular fa-clock"></i> 25, Feb, 2023. 04:00 PM</span></h3>
                                     </div>

@@ -9,3 +9,10 @@
     line-height: 1rem;
     color: #5a5b5f !important;
 }
+
+/* 
+@media screen and (max-width: 767px) {
+    .footer-text {
+        padding-bottom: 1rem;
+    }
+} */

@@ -353,9 +353,9 @@ a {
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 343px) {
   :root {
-    --nav-width: 210px !important;
+    --nav-width: 205px !important;
   }
 
 }
