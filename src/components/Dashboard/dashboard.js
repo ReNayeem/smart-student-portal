@@ -146,7 +146,14 @@ const Dashboard = () => {
                                 </div>
                             </div>
                             <div className='dashboard-first-second-section'>
-                                <img className='temp' src={study} alt="" />
+                                <div className='temp'>
+                                    <div className='upcoming-one'>
+                                        <h3>Web Engineering Quiz <br /><span><i class="fa-regular fa-clock"></i> 25, Feb, 2023. 04:00 PM</span></h3>
+                                    </div>
+                                    <div className='upcoming-two'>
+                                        <h3>Artificial Intelligence Quiz <br /><span><i class="fa-regular fa-clock"></i> 12, March, 2023. 01:00 PM</span></h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
