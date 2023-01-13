@@ -17,7 +17,7 @@
     padding: 0 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .custom-container {
         padding-left: 0rem;
         padding-right: 0rem;

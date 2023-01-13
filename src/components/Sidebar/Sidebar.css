@@ -328,7 +328,7 @@ a {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   main {
     margin: calc(var(--header-height) + 1rem) 0 0 0;
     padding: 0 1rem 0 calc(var(--nav-width) + 2rem);

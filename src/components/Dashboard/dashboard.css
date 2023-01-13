@@ -130,7 +130,119 @@
 
 
 
-@media screen and (max-width: 521px) {
+@media screen and (max-width: 517px) {
+
+    .dashboard-first-first-section {
+        width: 380px;
+        flex-direction: column;
+        height: 455px;
+    }
+
+    .dashboard-profile-detail {
+        width: 380px !important;
+        order: 1;
+        padding: 0rem 1rem 1rem 1rem !important;
+    }
+
+    .dashboard-first-second-section {
+        margin-top: 2rem;
+        margin-left: 0rem !important;
+        height: auto !important;
+        width: 380px !important;
+    }
+
+    .study-img {
+        max-width: 380px !important;
+        padding: 0rem 0rem 0 0rem !important;
+    }
+
+    .dashboard-profile-detail p {
+        margin: .8rem 0rem !important;
+    }
+
+    .upcoming-one {
+        width: 380px;
+    }
+
+    .upcoming-one h3 {
+        font-size: 19px !important;
+    }
+
+    .upcoming-one span {
+        font-size: 15px !important;
+    }
+
+    .upcoming-two {
+        width: 380px;
+    }
+
+    .upcoming-two h3 {
+        font-size: 19px !important;
+    }
+
+    .upcoming-two span {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 389px) {
+
+    .dashboard-first-first-section {
+        width: 340px;
+        flex-direction: column;
+        height: 455px;
+    }
+
+    .dashboard-profile-detail {
+        width: 340px !important;
+        order: 1;
+        padding: 0rem 1rem 1rem 1rem !important;
+    }
+
+    .dashboard-first-second-section {
+        margin-top: 2rem;
+        margin-left: 0rem !important;
+        height: auto !important;
+        width: 340px !important;
+    }
+
+    .study-img {
+        max-width: 340px !important;
+        padding: 0rem 0rem 0 0rem !important;
+    }
+
+    .dashboard-profile-detail p {
+        margin: .8rem 0rem !important;
+    }
+
+    .upcoming-one {
+        width: 340px;
+    }
+
+    .upcoming-one h3 {
+        font-size: 19px !important;
+    }
+
+    .upcoming-one span {
+        font-size: 15px !important;
+    }
+
+    .upcoming-two {
+        width: 340px;
+    }
+
+    .upcoming-two h3 {
+        font-size: 19px !important;
+    }
+
+    .upcoming-two span {
+        font-size: 15px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 260px) {
 
     .dashboard-first-first-section {
         width: 250px;
