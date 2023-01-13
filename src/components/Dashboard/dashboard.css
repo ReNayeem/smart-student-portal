@@ -62,12 +62,13 @@
 
 .dashboard-profile-detail button {
     border: 2px solid var(--button-color);
-    border-radius: .3rem;
+    border-radius: .7rem;
     padding: .2rem 1rem;
     color: var(--button-color);
     font-weight: 500;
     font-family: var(--manrope);
     transition: 1s all ease;
+    font-size: 14px;
 }
 
 .dashboard-profile-detail button:hover {

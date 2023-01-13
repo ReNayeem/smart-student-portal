@@ -6,8 +6,8 @@
 
 .custom-navbar2 {
     width: 100%;
-    max-width: 1408px;
-    padding-top: 15px;
+    max-width: 1425px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: space-between;
