@@ -134,6 +134,8 @@ const Dashboard = () => {
 
                 <div className=''>
                     <div className='custom-width'>
+
+                        {/* 1st section start  */}
                         <div className='d-flex dashboard-first-section'>
                             <div className='d-flex dashboard-first-first-section justify-content-between flex-wrap'>
                                 <div className='dashboard-profile-detail'>
@@ -156,6 +158,18 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
+                        {/* 1st section end  */}
+
+
+                        {/* 2nd section start  */}
+                        <div>
+                            <div className='d-flex'>
+                                <div className='test1'>ola</div>
+                                <div className='test2'>cola</div>
+                                <div className='test3'>hola</div>
+                            </div>
+                        </div>
+                        {/* 2nd section end  */}
 
                         {/* <p className='custom-padding-2 hi-dashboard'>Hi Nayeem</p>
                         <h1 className='welcome-dashboard'>Welcome to Dashboard</h1>
