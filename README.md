@@ -44,6 +44,7 @@ https://micro-center-official.web.app/
 
 <h3>Framework/Library used:</h3>
 <!-- <li>npm install firebase</li> -->
+<li>Bootstrap v5.1.3</li>
 <li>npm install react-router-dom@6</li>
 <!-- <li>npm install react-bootstrap bootstrap</li> -->
 <!-- <li>npm install --save react-firebase-hooks</li> -->
