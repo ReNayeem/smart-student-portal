@@ -166,20 +166,79 @@ const Dashboard = () => {
                             <div className='d-flex dashboard-second-section'>
                                 <div className='dashboard-second-first-section'>
                                     <h4>Your Progress</h4>
-                                    <table class="table">
+                                    <table class="table table-hover">
                                         <thead>
                                             <tr>
                                                 <th className='dashboard-1st-th'>Subject</th>
                                                 <th>Progress</th>
-                                                <th className='dashboard-3rd-th'>Classes</th>
+                                                <th className='dashboard-3rd-th'>Remaining</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            ...
+                                            <tr>
+                                                <td>Information Security</td>
+                                                <td>
+                                                    <div className="progress">
+                                                        <div className="progress-bar progress-bar-striped progress-bar-animated w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                                    </div>
+                                                </td>
+                                                <td>3 Classes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Artificial Intelligence</td>
+                                                <td>
+                                                    <div className="progress">
+                                                        <div className="progress-bar bg-info progress-bar-striped progress-bar-animated progress-bar-2" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                                    </div>
+                                                </td>
+                                                <td>4 Classes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Principles of Robotics</td>
+                                                <td>
+                                                    <div className="progress">
+                                                        <div className="progress-bar bg-danger progress-bar-striped progress-bar-animated w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                                    </div>
+                                                </td>
+                                                <td>4 Classes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Web Engineering</td>
+                                                <td>
+                                                    <div className="progress">
+                                                        <div className="progress-bar bg-success progress-bar-striped progress-bar-animated progress-bar-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                                    </div>
+                                                </td>
+                                                <td>3 Classes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Web Engineering Lab</td>
+                                                <td>
+                                                    <div className="progress">
+                                                        <div className="progress-bar bg-success progress-bar-striped progress-bar-animated progress-bar-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                                    </div>
+                                                </td>
+                                                <td>1 Class</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Digital Image Processing</td>
+                                                <td>
+                                                    <div className="progress">
+                                                        <div className="progress-bar bg-warning progress-bar-striped progress-bar-animated progress-bar-5" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">66%</div>
+                                                    </div>
+                                                </td>
+                                                <td>3 Classes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Software Project VI</td>
+                                                <td>
+                                                    <div className="progress">
+                                                        <div className="progress-bar bg-success progress-bar-striped progress-bar-animated w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                                    </div>
+                                                </td>
+                                                <td>2 Classes</td>
+                                            </tr>
                                         </tbody>
-                                        <tfoot>
-                                            ...
-                                        </tfoot>
                                     </table>
 
                                 </div>
