@@ -162,13 +162,31 @@ const Dashboard = () => {
 
 
                         {/* 2nd section start  */}
-                        {/* <div>
-                            <div className='d-flex flex-wrap'>
-                                <div className='test1'>ola</div>
-                                <div className='test2'>cola</div>
-                                <div className='test3'>hola</div>
+                        <div>
+                            <div className='d-flex dashboard-second-section'>
+                                <div className='dashboard-second-first-section'>
+                                    <h4>Your Progress</h4>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th className='dashboard-1st-th'>Subject</th>
+                                                <th>Progress</th>
+                                                <th className='dashboard-3rd-th'>Classes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            ...
+                                        </tbody>
+                                        <tfoot>
+                                            ...
+                                        </tfoot>
+                                    </table>
+
+                                </div>
+                                {/* <div className='dashboard-second-second-section'>cola</div>
+                                <div className='dashboard-second-third-section'>hola</div> */}
                             </div>
-                        </div> */}
+                        </div>
                         {/* 2nd section end  */}
 
                         {/* <p className='custom-padding-2 hi-dashboard'>Hi Nayeem</p>
