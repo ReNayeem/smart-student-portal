@@ -242,8 +242,13 @@ const Dashboard = () => {
                                     </table>
 
                                 </div>
-                                {/* <div className='dashboard-second-second-section'>cola</div>
-                                <div className='dashboard-second-third-section'>hola</div> */}
+
+                                <div className='dashboard-second-second-section'>
+                                    <h4>Assignments</h4>
+                                </div>
+                                <div className='dashboard-second-third-section'>
+                                    <h4>Upcoming Class</h4>
+                                </div>
                             </div>
                         </div>
                         {/* 2nd section end  */}
