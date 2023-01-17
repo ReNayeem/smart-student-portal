@@ -26,7 +26,7 @@
 }
 
 .dashboard {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .custom-container2 {
@@ -249,6 +249,47 @@
     font-weight: 500;
     font-family: var(--poppins);
     margin-bottom: .7rem;
+}
+
+.assignment-name i {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 10%;
+    font-size: 23px;
+    text-align: center;
+    margin: 0px 15px;
+    background-color: rgba(110, 129, 220, 0.1);
+    color: rgb(42, 160, 239);
+}
+
+.dashboard-second-second-section h5 {
+    margin-top: .2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: var(--manrope);
+    font-size: 16px;
+}
+
+.assignments {
+    margin-top: 1rem;
+}
+
+.dashboard-second-second-section span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.assignment-icon-2 {
+    font-size: 14px;
+    color: #555;
+    margin-right: 8px;
+}
+
+.assignment-icon-3 {
+    font-size: 14px;
+    color: #555;
+    margin-right: 15px;
 }
 
 .dashboard-second-third-section {

@@ -150,10 +150,10 @@ const Dashboard = () => {
                             <div className='dashboard-first-second-section'>
                                 <div>
                                     <div className='upcoming-one'>
-                                        <h3>Web Engineering Quiz <br /><span><i class="fa-regular fa-clock"></i> 25, Feb, 2023. 04:00 PM</span></h3>
+                                        <h3>Web Engineering Quiz <br /><span><i className="fa-regular fa-clock"></i> 25, Feb, 2023. 04:00 PM</span></h3>
                                     </div>
                                     <div className='upcoming-two'>
-                                        <h3>Artificial Intelligence Quiz <br /><span><i class="fa-regular fa-clock"></i> 12, March, 2023. 01:00 PM</span></h3>
+                                        <h3>Artificial Intelligence Quiz <br /><span><i className="fa-regular fa-clock"></i> 12, March, 2023. 01:00 PM</span></h3>
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +166,7 @@ const Dashboard = () => {
                             <div className='d-flex dashboard-second-section'>
                                 <div className='dashboard-second-first-section'>
                                     <h4>Your Progress</h4>
-                                    <table class="table table-hover">
+                                    <table className="table table-hover">
                                         <thead>
                                             <tr>
                                                 <th className='dashboard-1st-th'>Subject</th>
@@ -245,9 +245,20 @@ const Dashboard = () => {
 
                                 <div className='dashboard-second-second-section'>
                                     <h4>Assignments</h4>
+                                    <div className='assignments'>
+                                        <div className='d-flex justify-content-between'>
+                                            <div className='d-flex assignment-name'>
+                                                <i className="fa-regular fa-file-word"></i>
+                                                <h5>Java Programming <br /><span>.doc, 4.3 MB</span></h5>
+                                            </div>
+                                            <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
+                                        </div>
+                                        <hr />
+                                    </div>
                                 </div>
                                 <div className='dashboard-second-third-section'>
                                     <h4>Upcoming Class</h4>
+
                                 </div>
                             </div>
                         </div>
@@ -340,14 +351,14 @@ const Dashboard = () => {
                             <div className='me-4 d-flex align-items-center'>
                                 <h3>Payment</h3>
                             </div>
-                            <div class="flip-card">
-                                <div class="flip-card-inner">
-                                    <div class="flip-card-front">
-                                        <p class="title-card mt-3">29,872 TK</p>
+                            <div className="flip-card">
+                                <div className="flip-card-inner">
+                                    <div className="flip-card-front">
+                                        <p className="title-card mt-3">29,872 TK</p>
                                         <p>Hover</p>
                                     </div>
-                                    <div class="flip-card-back">
-                                        <p class="title-card mt-3">Mid-Term</p>
+                                    <div className="flip-card-back">
+                                        <p className="title-card mt-3">Mid-Term</p>
                                         <p>22/2/23</p>
                                     </div>
                                 </div>
