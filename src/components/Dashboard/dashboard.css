@@ -360,10 +360,38 @@
     margin-bottom: .7rem;
 }
 
+.upcoming-class {
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 .upcoming-class img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    margin-right: 14px;
+    margin-top: 2px;
+}
+
+.upcoming-class h5 {
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--not-black);
+    font-family: var(--manrope);
+}
+
+.upcoming-class h5 span {
+    color: #96a2b4;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.class-info {
+    background-color: #f6f4ff;
+    padding: 10px 10px 4px 10px;
+    border-radius: .5rem;
+    margin-bottom: 10px;
 }
 
 /* 3rd section end  */

@@ -301,14 +301,48 @@ const Dashboard = () => {
                                 <div className='dashboard-second-third-section'>
                                     <h4>Upcoming Class</h4>
                                     <div className='upcoming-class'>
-                                        <div className='d-flex justify-content-between'>
+                                        <div className='d-flex justify-content-between class-info'>
                                             <div className='d-flex assignment-name'>
                                                 <img src={teacherImg1} alt="" />
-                                                <h5>Java Programming <br /><span>.doc, 4.3 MB</span></h5>
+                                                <h5>Fahad Faysal <br /><span>Artificial Intelligence</span></h5>
                                             </div>
-                                            <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
+                                            <div><h5>12 June '20<br /><span>09:00-10:30</span></h5></div>
                                         </div>
-
+                                        <div className='d-flex justify-content-between class-info'>
+                                            <div className='d-flex assignment-name'>
+                                                <img src={teacherImg2} alt="" />
+                                                <h5>Tajmery Mahfuz <br /><span>Software Project VI</span></h5>
+                                            </div>
+                                            <div><h5>13 June '20<br /><span>11:00-12:30</span></h5></div>
+                                        </div>
+                                        <div className='d-flex justify-content-between class-info'>
+                                            <div className='d-flex assignment-name'>
+                                                <img src={teacherImg3} alt="" />
+                                                <h5>Touhid Bhuiyan <br /><span>Information Security</span></h5>
+                                            </div>
+                                            <div><h5>15 June '20<br /><span>09:30-11:00</span></h5></div>
+                                        </div>
+                                        <div className='d-flex justify-content-between class-info'>
+                                            <div className='d-flex assignment-name'>
+                                                <img src={teacherImg4} alt="" />
+                                                <h5>Sharmin Akter Rima <br /><span>Web Engineering</span></h5>
+                                            </div>
+                                            <div><h5>16 June '20<br /><span>13:30-15:00</span></h5></div>
+                                        </div>
+                                        <div className='d-flex justify-content-between class-info'>
+                                            <div className='d-flex assignment-name'>
+                                                <img src={teacherImg5} alt="" />
+                                                <h5>Dr. Bimal Das <br /><span>Principles of Robotics</span></h5>
+                                            </div>
+                                            <div><h5>18 June '20<br /><span>11:00-12:30</span></h5></div>
+                                        </div>
+                                        <div className='d-flex justify-content-between class-info'>
+                                            <div className='d-flex assignment-name'>
+                                                <img src={teacherImg6} alt="" />
+                                                <h5>Narayan Chakraborty <br /><span>Digital Image Processing</span></h5>
+                                            </div>
+                                            <div><h5>22 June '20<br /><span>13:00-14:30</span></h5></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
