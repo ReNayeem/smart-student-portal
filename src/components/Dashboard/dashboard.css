@@ -273,7 +273,14 @@
 
 .assignments {
     margin-top: 1rem;
+    max-height: 310px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
+
+/* .assignments hr {
+    margin: 15px 0px;
+} */
 
 .dashboard-second-second-section span {
     font-size: 14px;
@@ -313,6 +320,16 @@
     font-weight: 500;
     font-family: var(--poppins);
     margin-bottom: .7rem;
+}
+
+.excel-icon {
+    color: #59b78a !important;
+    background-color: #EFF9F2 !important;
+}
+
+.adobe-icon {
+    color: #DD3D4D !important;
+    background-color: #FEECED !important;
 }
 
 /* 2nd section end  */

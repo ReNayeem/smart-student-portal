@@ -254,6 +254,38 @@ const Dashboard = () => {
                                             <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
                                         </div>
                                         <hr />
+                                        <div className='d-flex justify-content-between'>
+                                            <div className='d-flex assignment-name'>
+                                                <i className="far fa-file-excel excel-icon"></i>
+                                                <h5>Java Programming <br /><span>.doc, 4.3 MB</span></h5>
+                                            </div>
+                                            <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
+                                        </div>
+                                        <hr />
+                                        <div className='d-flex justify-content-between'>
+                                            <div className='d-flex assignment-name'>
+                                                <i className="far fa-file-pdf adobe-icon"></i>
+                                                <h5>Java Programming <br /><span>.doc, 4.3 MB</span></h5>
+                                            </div>
+                                            <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
+                                        </div>
+                                        <hr />
+                                        <div className='d-flex justify-content-between'>
+                                            <div className='d-flex assignment-name'>
+                                                <i className="far fa-file-archive archive-icon"></i>
+                                                <h5>Java Programming <br /><span>.doc, 4.3 MB</span></h5>
+                                            </div>
+                                            <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
+                                        </div>
+                                        <hr />
+                                        <div className='d-flex justify-content-between'>
+                                            <div className='d-flex assignment-name'>
+                                                <i className="fa-regular fa-file-word"></i>
+                                                <h5>Java Programming <br /><span>.doc, 4.3 MB</span></h5>
+                                            </div>
+                                            <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
+                                        </div>
+                                        <hr />
                                     </div>
                                 </div>
                                 <div className='dashboard-second-third-section'>
