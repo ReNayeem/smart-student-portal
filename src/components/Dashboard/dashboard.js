@@ -287,6 +287,9 @@ const Dashboard = () => {
                                         </div>
                                         <hr />
                                     </div>
+                                    <div className='d-flex justify-content-center'>
+                                        <button>Report Adverse Effect</button>
+                                    </div>
                                 </div>
                                 <div className='dashboard-second-third-section'>
                                     <h4>Upcoming Class</h4>
