@@ -1,7 +1,14 @@
 import React from 'react';
 import { CartesianGrid, Tooltip, Legend, Line, LineChart, XAxis, YAxis, AreaChart, Area, ResponsiveContainer } from 'recharts';
 import './Dashboard.css';
-import study from '../../resources/images/study.png'
+import study from '../../resources/others/study.png'
+import teacherImg1 from '../../resources/teachersImages/img1.png'
+import teacherImg2 from '../../resources/teachersImages/img2.png'
+import teacherImg3 from '../../resources/teachersImages/img3.png'
+import teacherImg4 from '../../resources/teachersImages/img4.png'
+import teacherImg5 from '../../resources/teachersImages/img5.png'
+import teacherImg6 from '../../resources/teachersImages/img6.png'
+
 
 const Dashboard = () => {
 
@@ -293,7 +300,16 @@ const Dashboard = () => {
                                 </div>
                                 <div className='dashboard-second-third-section'>
                                     <h4>Upcoming Class</h4>
+                                    <div className='upcoming-class'>
+                                        <div className='d-flex justify-content-between'>
+                                            <div className='d-flex assignment-name'>
+                                                <img src={teacherImg1} alt="" />
+                                                <h5>Java Programming <br /><span>.doc, 4.3 MB</span></h5>
+                                            </div>
+                                            <div><i className="fa-regular fa-trash-can assignment-icon-2"></i><i className="fa-regular fa-circle-down assignment-icon-3"></i></div>
+                                        </div>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
