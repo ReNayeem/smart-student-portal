@@ -323,13 +323,18 @@
 }
 
 .excel-icon {
-    color: #59b78a !important;
-    background-color: #EFF9F2 !important;
+    color: #198754 !important;
+    background-color: #eff9f2 !important;
 }
 
 .adobe-icon {
-    color: #DD3D4D !important;
-    background-color: #FEECED !important;
+    color: #dc3545 !important;
+    background-color: #feecee !important;
+}
+
+.archive-icon {
+    color: #0dcaf0 !important;
+    background-color: #f1faff !important;
 }
 
 /* 2nd section end  */
