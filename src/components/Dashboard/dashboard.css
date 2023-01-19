@@ -399,11 +399,15 @@
 
 @media screen and (max-width: 1691px) {
     .dashboard-first-first-section {
-        width: 800px;
+        width: 852px;
     }
 
     .dashboard-profile-detail {
         width: 500px !important;
+    }
+
+    .dashboard-first-second-section {
+        width: 417.933px;
     }
 }
 
