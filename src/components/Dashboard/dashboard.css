@@ -437,15 +437,40 @@
 
 @media screen and (max-width: 1521px) {
     .dashboard-first-first-section {
-        width: 700px;
+        width: 707px;
+        height: 244.8px;
     }
 
     .dashboard-profile-detail {
-        width: 400px !important;
+        width: 410px !important;
+    }
+
+    .dashboard-first-second-section {
+        width: 346px;
+    }
+
+    .upcoming-one h3 {
+        font-size: 24px;
+    }
+
+    .upcoming-two h3 {
+        font-size: 24px;
+    }
+
+    .dashboard-second-section {
+        max-width: 1070px;
+    }
+
+    .upcoming-class h5 {
+        font-size: 15px;
+    }
+
+    .upcoming-class h5 span {
+        font-size: 13px;
     }
 }
 
-@media screen and (max-width: 1403px) {
+@media screen and (max-width: 1352px) {
     .dashboard-first-first-section {
         width: 600px;
     }
@@ -453,9 +478,28 @@
     .dashboard-profile-detail {
         width: 300px !important;
     }
+
+    .dashboard-second-section {
+        width: 962px;
+        flex-wrap: wrap;
+    }
+
+    .dashboard-second-first-section {
+        max-width: 473px;
+    }
+
+    .dashboard-second-second-section {
+        margin-right: 0rem;
+        max-width: 473px;
+    }
+
+    .dashboard-second-third-section {
+        max-width: 962px;
+        margin-top: 1rem;
+    }
 }
 
-@media screen and (max-width: 1301px) {
+/* @media screen and (max-width: 1301px) {
     .dashboard-first-first-section {
         width: 500px;
     }
@@ -463,9 +507,9 @@
     .dashboard-profile-detail {
         width: 250px !important;
     }
-}
+} */
 
-@media screen and (max-width: 1189px) {
+@media screen and (max-width: 1249px) {
     .dashboard-first-section {
         flex-direction: column;
     }
@@ -480,7 +524,7 @@
     }
 
     .dashboard-first-second-section {
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-left: 0rem !important;
         height: 250px;
     }
@@ -491,6 +535,29 @@
 
     .upcoming-two {
         width: 500px;
+    }
+
+    .upcoming-one h3 {
+        font-size: 25px;
+    }
+
+    .upcoming-two h3 {
+        font-size: 25px;
+    }
+
+    .dashboard-second-section {
+        max-width: 500px;
+    }
+
+    .dashboard-second-first-section {
+        max-width: 500px;
+        margin-right: 0px;
+    }
+
+    .dashboard-second-second-section {
+        max-width: 500px;
+        margin-right: 0px;
+        margin-top: 1rem;
     }
 }
 
@@ -518,7 +585,6 @@
     }
 
     .dashboard-first-second-section {
-        margin-top: 2rem;
         margin-left: 0rem !important;
         height: auto !important;
         width: 380px !important;
@@ -556,6 +622,10 @@
     .upcoming-two span {
         font-size: 15px !important;
     }
+
+    .dashboard-second-section {
+        max-width: 380px;
+    }
 }
 
 @media screen and (max-width: 389px) {
@@ -573,7 +643,6 @@
     }
 
     .dashboard-first-second-section {
-        margin-top: 2rem;
         margin-left: 0rem !important;
         height: auto !important;
         width: 340px !important;
@@ -611,6 +680,30 @@
     .upcoming-two span {
         font-size: 15px !important;
     }
+
+    .dashboard-second-section {
+        max-width: 340px;
+    }
+
+    .dashboard-second-first-section {
+        padding-bottom: 5rem !important;
+    }
+
+    .dashboard-second-second-section h5 {
+        font-size: 15px;
+    }
+
+    .dashboard-second-second-section button {
+        font-size: 14px;
+        padding-top: .4rem;
+        margin-top: .5rem;
+    }
+
+    .upcoming-class img {
+        width: 40px;
+        height: 40px;
+        margin-top: 5.1px;
+    }
 }
 
 
@@ -630,7 +723,6 @@
     }
 
     .dashboard-first-second-section {
-        margin-top: 2rem;
         margin-left: 0rem !important;
         height: auto !important;
         width: 260px !important;
@@ -667,6 +759,40 @@
 
     .upcoming-two span {
         font-size: 15px !important;
+    }
+
+    .dashboard-second-section {
+        max-width: 260px;
+    }
+
+    .dashboard-second-first-section {
+        overflow: hidden;
+        overflow-x: scroll !important;
+        height: 500px;
+    }
+
+    .dashboard-first-second-section table {
+        width: 300px;
+    }
+
+    .dashboard-second-second-section {
+        overflow: hidden;
+        overflow-x: scroll !important;
+        /* height: 500px; */
+    }
+
+    .dashboard-second-second-section .assignments {
+        width: 300px;
+    }
+
+    .dashboard-second-third-section {
+        overflow: hidden;
+        overflow-x: scroll !important;
+        /* height: 500px; */
+    }
+
+    .dashboard-second-third-section .upcoming-class {
+        width: 340px;
     }
 }
 
