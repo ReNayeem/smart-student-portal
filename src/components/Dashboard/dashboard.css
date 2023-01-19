@@ -411,9 +411,27 @@
     }
 }
 
-@media screen and (max-width: 1629px) {
+/* @media screen and (max-width: 1629px) {
     .dashboard-first-second-section {
-        width: 400px !important;
+        width: 400px;
+    }
+} */
+
+@media screen and (max-width: 1536px) {
+    .dashboard-first-first-section {
+        width: 772px;
+    }
+
+    .dashboard-profile-detail {
+        width: 490px !important;
+    }
+
+    .dashboard-first-second-section {
+        width: 378px;
+    }
+
+    .dashboard-second-section {
+        max-width: 1200px;
     }
 }
 
