@@ -17,55 +17,55 @@ const Dashboard = () => {
     //     {
     //         "semester": "Fall 2019",
     //         "investment": 100000,
-    //         "CGPA": 3.33,
+    //         "SGPA": 3.33,
     //         "revenue": 10401
     //     },
     //     {
     //         "semester": "Spring 2020",
     //         "investment": 200000,
-    //         "CGPA": 3.86,
+    //         "SGPA": 3.86,
     //         "revenue": 24500
     //     },
     //     {
     //         "semester": "Summer 2020",
     //         "investment": 200000,
-    //         "CGPA": 3.86,
+    //         "SGPA": 3.86,
     //         "revenue": 24500
     //     },
     //     {
     //         "semester": "Fall 2020",
     //         "investment": 200000,
-    //         "CGPA": 3.79,
+    //         "SGPA": 3.79,
     //         "revenue": 24500
     //     },
     //     {
     //         "semester": "Spring 2021",
     //         "investment": 200000,
-    //         "CGPA": 3.79,
+    //         "SGPA": 3.79,
     //         "revenue": 24500
     //     },
     //     {
     //         "semester": "Summer 2021",
     //         "investment": 200000,
-    //         "CGPA": 3.81,
+    //         "SGPA": 3.81,
     //         "revenue": 24500
     //     },
     //     {
     //         "semester": "Fall 2021",
     //         "investment": 200000,
-    //         "CGPA": 3.95,
+    //         "SGPA": 3.95,
     //         "revenue": 24500
     //     },
     //     {
     //         "semester": "Spring 2022",
     //         "investment": 200000,
-    //         "CGPA": 3.60,
+    //         "SGPA": 3.60,
     //         "revenue": 24500
     //     },
     //     {
     //         "semester": "Fall 2022",
     //         "investment": 200000,
-    //         "CGPA": 3.12,
+    //         "SGPA": 3.12,
     //         "revenue": 24500
     //     },
     // ]
@@ -75,55 +75,55 @@ const Dashboard = () => {
         {
             "semester": "Fall 19",
             "investment": 100000,
-            "CGPA": 2.33,
+            "SGPA": 2.33,
             "revenue": 10401
         },
         {
             "semester": "Spring 20",
             "investment": 200000,
-            "CGPA": 2.86,
+            "SGPA": 2.86,
             "revenue": 24500
         },
         {
             "semester": "Summer 20",
             "investment": 200000,
-            "CGPA": 2.56,
+            "SGPA": 2.56,
             "revenue": 24500
         },
         {
             "semester": "Fall 20",
             "investment": 200000,
-            "CGPA": 3.20,
+            "SGPA": 3.20,
             "revenue": 24500
         },
         {
             "semester": "Spring 21",
             "investment": 200000,
-            "CGPA": 3.00,
+            "SGPA": 3.00,
             "revenue": 24500
         },
         {
             "semester": "Summer 21",
             "investment": 200000,
-            "CGPA": 3.81,
+            "SGPA": 3.81,
             "revenue": 24500
         },
         {
             "semester": "Fall 21",
             "investment": 200000,
-            "CGPA": 2.22,
+            "SGPA": 2.22,
             "revenue": 24500
         },
         {
             "semester": "Spring 22",
             "investment": 200000,
-            "CGPA": 2.90,
+            "SGPA": 2.90,
             "revenue": 24500
         },
         {
             "semester": "Fall 22",
             "investment": 200000,
-            "CGPA": 3.12,
+            "SGPA": 3.12,
             "revenue": 24500
         }
     ]
@@ -349,7 +349,7 @@ const Dashboard = () => {
                         {/* 3rd section start  */}
                         <div className='dashboard-third-section'>
                             <div className='dashboard-line-chart' >
-                                <h4>CGPA</h4>
+                                <h4>SGPA</h4>
                                 <ResponsiveContainer className='dashboard-line-chart-1'>
                                     <LineChart
                                         data={data}
@@ -365,12 +365,12 @@ const Dashboard = () => {
                                         <YAxis />
                                         <Tooltip />
                                         <Legend />
-                                        <Line type="monotone" dataKey="CGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+                                        <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
 
                                     </LineChart>
 
                                 </ResponsiveContainer>
-                                <p className='fig-cgpa'>CGPA</p>
+                                {/* <p className='fig-cgpa'>SGPA</p> */}
                             </div>
                         </div>
                         {/* 3rd section end  */}
@@ -401,7 +401,7 @@ const Dashboard = () => {
                                             <YAxis />
                                             <Tooltip />
                                             <Legend />
-                                            <Line type="monotone" dataKey="CGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+                                            <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
 
                                         </LineChart>
 
@@ -424,7 +424,7 @@ const Dashboard = () => {
                                             <YAxis />
                                             <Tooltip />
                                             <Legend />
-                                            <Line type="monotone" dataKey="CGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+                                            <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
 
                                         </LineChart>
 
