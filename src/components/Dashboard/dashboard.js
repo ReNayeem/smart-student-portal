@@ -73,64 +73,59 @@ const Dashboard = () => {
 
     const data = [
         {
-            "semester": "Fall 2019",
+            "semester": "Fall 19",
             "investment": 100000,
             "CGPA": 2.33,
             "revenue": 10401
         },
         {
-            "semester": "Spring 2020",
+            "semester": "Spring 20",
             "investment": 200000,
             "CGPA": 2.86,
             "revenue": 24500
         },
         {
-            "semester": "Summer 2020",
+            "semester": "Summer 20",
             "investment": 200000,
             "CGPA": 2.56,
             "revenue": 24500
         },
         {
-            "semester": "Fall 2020",
+            "semester": "Fall 20",
             "investment": 200000,
             "CGPA": 3.20,
             "revenue": 24500
         },
         {
-            "semester": "Spring 2021",
+            "semester": "Spring 21",
             "investment": 200000,
             "CGPA": 3.00,
             "revenue": 24500
         },
         {
-            "semester": "Summer 2021",
+            "semester": "Summer 21",
             "investment": 200000,
             "CGPA": 3.81,
             "revenue": 24500
         },
         {
-            "semester": "Fall 2021",
+            "semester": "Fall 21",
             "investment": 200000,
             "CGPA": 2.22,
             "revenue": 24500
         },
         {
-            "semester": "Spring 2022",
+            "semester": "Spring 22",
             "investment": 200000,
             "CGPA": 2.90,
             "revenue": 24500
         },
         {
-            "semester": "Fall 2022",
+            "semester": "Fall 22",
             "investment": 200000,
             "CGPA": 3.12,
             "revenue": 24500
-        },
-        {
-            "semester": "Spring 2023",
-            "investment": 200000,
-            "revenue": 24500
-        },
+        }
     ]
 
 
@@ -354,6 +349,7 @@ const Dashboard = () => {
                         {/* 3rd section start  */}
                         <div className='dashboard-third-section'>
                             <div className='dashboard-line-chart' >
+                                <h4>CGPA</h4>
                                 <ResponsiveContainer className='dashboard-line-chart-1'>
                                     <LineChart
                                         data={data}
