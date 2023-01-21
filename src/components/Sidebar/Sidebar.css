@@ -122,7 +122,8 @@ main {
   width: var(--nav-width);
   padding-top: 0rem !important;
   transition: 0.5s;
-  box-shadow: 15px 0px 10px -15px rgba(17, 17, 17, 0.247);
+  /* box-shadow: 15px 0px 10px -15px rgba(17, 17, 17, 0.247); */
+  box-shadow: 15px 0px 10px -15px rgba(17, 17, 17, 0.099);
 }
 
 #light .sidebar {
@@ -317,7 +318,7 @@ a {
   .header2 {
     display: block;
     display: flex;
-    box-shadow: 0px 15px 10px -15px rgba(17, 17, 17, 0.247);
+    box-shadow: 0px 15px 10px -15px rgba(17, 17, 17, 0.099);
   }
 
   .profile-img {

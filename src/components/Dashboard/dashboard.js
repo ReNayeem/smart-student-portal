@@ -349,6 +349,36 @@ const Dashboard = () => {
                         </div>
                         {/* 2nd section end  */}
 
+
+
+                        {/* 3rd section start  */}
+                        <div className='dashboard-third-section'>
+                            <div className='dashboard-line-chart' >
+                                <ResponsiveContainer className='dashboard-line-chart-1'>
+                                    <LineChart
+                                        data={data}
+                                        margin={{
+                                            top: 5,
+                                            right: 0,
+                                            left: -28,
+                                            bottom: 5,
+                                        }}
+                                    >
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="semester" />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Line type="monotone" dataKey="CGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+
+                                    </LineChart>
+
+                                </ResponsiveContainer>
+                                <p className='fig-cgpa'>CGPA</p>
+                            </div>
+                        </div>
+                        {/* 3rd section end  */}
+
                         {/* <p className='custom-padding-2 hi-dashboard'>Hi Nayeem</p>
                         <h1 className='welcome-dashboard'>Welcome to Dashboard</h1>
 
