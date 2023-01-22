@@ -372,6 +372,10 @@ const Dashboard = () => {
                                 </ResponsiveContainer>
                                 {/* <p className='fig-cgpa'>SGPA</p> */}
                             </div>
+
+                            <div className='dashboard-third-second-section'>
+                                <h4>Notice Board</h4>
+                            </div>
                         </div>
                         {/* 3rd section end  */}
 
