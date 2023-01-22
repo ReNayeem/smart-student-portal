@@ -347,7 +347,7 @@ const Dashboard = () => {
 
 
                         {/* 3rd section start  */}
-                        <div className='dashboard-third-section'>
+                        <div className='dashboard-third-section d-flex'>
                             <div className='dashboard-line-chart' >
                                 <h4>SGPA</h4>
                                 <ResponsiveContainer className='dashboard-line-chart-1'>
@@ -375,6 +375,44 @@ const Dashboard = () => {
 
                             <div className='dashboard-third-second-section'>
                                 <h4>Notice Board</h4>
+                                <div className='notices'>
+                                    <div className='d-flex justify-content-between notice-info'>
+                                        <div>
+                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                        </div>
+                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                    </div>
+                                    <div className='d-flex justify-content-between notice-info'>
+                                        <div>
+                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                        </div>
+                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                    </div>
+                                    <div className='d-flex justify-content-between notice-info'>
+                                        <div>
+                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                        </div>
+                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                    </div>
+                                    <div className='d-flex justify-content-between notice-info'>
+                                        <div>
+                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                        </div>
+                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                    </div>
+                                    <div className='d-flex justify-content-between notice-info'>
+                                        <div>
+                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                        </div>
+                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                    </div>
+                                    <div className='d-flex justify-content-between notice-info'>
+                                        <div>
+                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                        </div>
+                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         {/* 3rd section end  */}

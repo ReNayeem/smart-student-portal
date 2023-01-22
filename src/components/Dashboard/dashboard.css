@@ -333,12 +333,6 @@
     background-color: #f7f8fc;
 }
 
-/* 2nd section end  */
-
-
-
-/* 3rd section start  */
-
 .dashboard-second-third-section {
     max-width: 469.33px;
     width: 100%;
@@ -396,7 +390,14 @@
     margin-bottom: 10px;
 }
 
-/* 3rd section end  */
+/* 2nd section end  */
+
+
+/* 3rd section start  */
+
+.dashboard-third-section {
+    margin: 1rem 0rem 1.3rem 0rem;
+}
 
 .dashboard-third-section h4 {
     margin: 0;
@@ -416,9 +417,57 @@
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     border-radius: .5rem;
     padding: 1rem 2rem 1.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1.3rem;
+    margin-right: 1rem;
 }
+
+.dashboard-third-second-section {
+    max-width: 469.33px;
+    width: 100%;
+    height: 400px;
+    background-color: var(--first-color);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.notices {
+    height: 330px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.notice-info {
+    border: 1px solid var(--non-active-color);
+    padding: 10px 10px 4px 10px;
+    border-radius: .5rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.notice-info h5 {
+    line-height: 24px;
+    font-size: 17px;
+    color: var(--not-black);
+    font-family: var(--manrope);
+}
+
+.notice-info h5 span {
+    color: #646464;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.notice-info h5 i {
+    font-size: 17px;
+    padding-right: 1rem;
+    color: crimson;
+}
+
+.notice-info h5 span i {
+    color: #003087;
+}
+
+/* 3rd section end  */
 
 
 @media screen and (max-width: 1691px) {
