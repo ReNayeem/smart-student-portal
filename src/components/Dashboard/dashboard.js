@@ -301,42 +301,42 @@ const Dashboard = () => {
                                                 <img src={teacherImg1} alt="" />
                                                 <h5>Fahad Faysal <br /><span>Artificial Intelligence</span></h5>
                                             </div>
-                                            <div><h5>12 June '20<br /><span>09:00-10:30</span></h5></div>
+                                            <div><h5>12 June '23<br /><span>09:00-10:30</span></h5></div>
                                         </div>
                                         <div className='d-flex justify-content-between class-info'>
                                             <div className='d-flex assignment-name'>
                                                 <img src={teacherImg2} alt="" />
                                                 <h5>Tajmery Mahfuz <br /><span>Software Project VI</span></h5>
                                             </div>
-                                            <div><h5>13 June '20<br /><span>11:00-12:30</span></h5></div>
+                                            <div><h5>13 June '23<br /><span>11:00-12:30</span></h5></div>
                                         </div>
                                         <div className='d-flex justify-content-between class-info'>
                                             <div className='d-flex assignment-name'>
                                                 <img src={teacherImg3} alt="" />
                                                 <h5>Touhid Bhuiyan <br /><span>Information Security</span></h5>
                                             </div>
-                                            <div><h5>15 June '20<br /><span>09:30-11:00</span></h5></div>
+                                            <div><h5>15 June '23<br /><span>09:30-11:00</span></h5></div>
                                         </div>
                                         <div className='d-flex justify-content-between class-info'>
                                             <div className='d-flex assignment-name'>
                                                 <img src={teacherImg4} alt="" />
                                                 <h5>Sharmin Akter Rima <br /><span>Web Engineering</span></h5>
                                             </div>
-                                            <div><h5>16 June '20<br /><span>13:30-15:00</span></h5></div>
+                                            <div><h5>16 June '23<br /><span>13:30-15:00</span></h5></div>
                                         </div>
                                         <div className='d-flex justify-content-between class-info'>
                                             <div className='d-flex assignment-name'>
                                                 <img src={teacherImg5} alt="" />
                                                 <h5>Dr. Bimal Das <br /><span>Principles of Robotics</span></h5>
                                             </div>
-                                            <div><h5>18 June '20<br /><span>11:00-12:30</span></h5></div>
+                                            <div><h5>18 June '23<br /><span>11:00-12:30</span></h5></div>
                                         </div>
                                         <div className='d-flex justify-content-between class-info'>
                                             <div className='d-flex assignment-name'>
                                                 <img src={teacherImg6} alt="" />
                                                 <h5>Narayan Chakraborty <br /><span>Digital Image Processing</span></h5>
                                             </div>
-                                            <div><h5>22 June '20<br /><span>13:00-14:30</span></h5></div>
+                                            <div><h5>22 June '23<br /><span>13:00-14:30</span></h5></div>
                                         </div>
                                     </div>
                                 </div>
@@ -378,39 +378,39 @@ const Dashboard = () => {
                                 <div className='notices'>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='first-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
                                         </div>
-                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='second-notice'><i class="fa-solid fa-flag"></i>Improvement/Make-up exam<br /><span><i class="fa-solid fa-hand-point-right"></i>Electrical and Electronic Engineering </span></h5>
                                         </div>
-                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>18 June '23<br /><span>Examination</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='third-notice'><i class="fa-solid fa-flag"></i>Late Registration of Fall 23<br /><span><i class="fa-solid fa-hand-point-right"></i>Registration Office</span></h5>
                                         </div>
-                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>18 June '23<br /><span>Academic</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='fourth-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
                                         </div>
-                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='five-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
                                         </div>
-                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5><i class="fa-solid fa-circle-exclamation"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='six-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
                                         </div>
-                                        <div><h5>22 June '20<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
                                     </div>
                                 </div>
                             </div>

@@ -421,7 +421,7 @@
 }
 
 .dashboard-third-second-section {
-    max-width: 469.33px;
+    max-width: 458.667px;
     width: 100%;
     height: 400px;
     background-color: var(--first-color);
@@ -460,7 +460,7 @@
 .notice-info h5 i {
     font-size: 17px;
     padding-right: 1rem;
-    color: crimson;
+    color: rgb(25, 135, 84);
 }
 
 .notice-info h5 span i {
