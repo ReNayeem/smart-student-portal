@@ -348,7 +348,7 @@ const Dashboard = () => {
 
                         {/* 3rd section start  */}
                         <div className='dashboard-third-section d-flex'>
-                            <div className='dashboard-line-chart' >
+                            <div className='dashboard-line-chart' id='show-line-chart-1'>
                                 <h4>SGPA</h4>
                                 <ResponsiveContainer className='dashboard-line-chart-1'>
                                     <LineChart
@@ -372,19 +372,43 @@ const Dashboard = () => {
                                 </ResponsiveContainer>
                                 {/* <p className='fig-cgpa'>SGPA</p> */}
                             </div>
+                            <div className='dashboard-line-chart' id='show-line-chart-2'>
+                                <h4>SGPA</h4>
+                                <ResponsiveContainer className='dashboard-line-chart-1'>
+                                    <LineChart
+                                        data={data}
+                                        margin={{
+                                            top: 5,
+                                            right: 0,
+                                            left: -28,
+                                            bottom: 5,
+                                        }}
+                                    >
+                                        <CartesianGrid strokeDasharray="3 3" />
+                                        <XAxis dataKey="semester" ticks={[1.2, 2.8, 4.4, 6]} />
+                                        <YAxis />
+                                        <Tooltip />
+                                        <Legend />
+                                        <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+
+                                    </LineChart>
+
+                                </ResponsiveContainer>
+                                {/* <p className='fig-cgpa'>SGPA</p> */}
+                            </div>
 
                             <div className='dashboard-third-second-section'>
                                 <h4>Notice Board</h4>
                                 <div className='notices'>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='first-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='first-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>CSE</span></h5>
                                         </div>
                                         <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='second-notice'><i class="fa-solid fa-flag"></i>Improvement/Make-up exam<br /><span><i class="fa-solid fa-hand-point-right"></i>Electrical and Electronic Engineering </span></h5>
+                                            <h5 id='second-notice'><i class="fa-solid fa-flag"></i>Improvement/Make-up exam<br /><span><i class="fa-solid fa-hand-point-right"></i>EEE</span></h5>
                                         </div>
                                         <div><h5>18 June '23<br /><span>Examination</span></h5></div>
                                     </div>
@@ -396,19 +420,19 @@ const Dashboard = () => {
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='fourth-notice'><i class="fa-solid fa-flag"></i>Overlap Exam Routine Fall 22<br /><span><i class="fa-solid fa-hand-point-right"></i>Software Engineering</span></h5>
+                                            <h5 id='fourth-notice'><i class="fa-solid fa-flag"></i>Overlap Exam Routine Fall 22<br /><span><i class="fa-solid fa-hand-point-right"></i>SE</span></h5>
                                         </div>
                                         <div><h5>17 June '23<br /><span>Examination</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='fifth-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Electrical and Electronic Engineering</span></h5>
+                                            <h5 id='fifth-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>EEE</span></h5>
                                         </div>
                                         <div><h5>16 June '23<br /><span>Routine V1.0</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='sixth-notice'><i class="fa-solid fa-flag"></i>Title Defense Board 193<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='sixth-notice'><i class="fa-solid fa-flag"></i>Title Defense Board 193<br /><span><i class="fa-solid fa-hand-point-right"></i>CSE</span></h5>
                                         </div>
                                         <div><h5>11 June '23<br /><span>Academic</span></h5></div>
                                     </div>

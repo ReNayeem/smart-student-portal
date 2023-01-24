@@ -506,6 +506,28 @@
     .dashboard-first-second-section {
         width: 417.933px;
     }
+
+    .dashboard-line-chart {
+        width: 852px;
+    }
+
+    .dashboard-third-second-section {
+        width: 417.933px;
+    }
+
+    .notice-info h5 {
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .notice-info h5 span {
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .notice-info h5 i {
+        font-size: 16px;
+    }
 }
 
 /* @media screen and (max-width: 1629px) {
@@ -514,7 +536,7 @@
     }
 } */
 
-@media screen and (max-width: 1536px) {
+@media screen and (max-width: 1539px) {
     .dashboard-first-first-section {
         width: 772px;
     }
@@ -529,6 +551,29 @@
 
     .dashboard-second-section {
         max-width: 1200px;
+    }
+
+    .dashboard-line-chart {
+        width: 772px;
+    }
+
+    .dashboard-third-second-section {
+        width: 378px;
+    }
+
+    .notice-info h5 {
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .notice-info h5 span {
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .notice-info h5 i {
+        font-size: 14px;
+        padding-right: .2rem;
     }
 }
 
@@ -565,6 +610,20 @@
     .upcoming-class h5 span {
         font-size: 13px;
     }
+
+    .dashboard-third-section {
+        flex-wrap: wrap;
+    }
+
+    .dashboard-line-chart {
+        min-width: 1070px;
+        margin-right: 0;
+    }
+
+    .dashboard-third-second-section {
+        min-width: 1070px;
+        margin-top: 1rem;
+    }
 }
 
 @media screen and (max-width: 1352px) {
@@ -593,6 +652,14 @@
     .dashboard-second-third-section {
         max-width: 962px;
         margin-top: 1rem;
+    }
+
+    .dashboard-line-chart {
+        min-width: 962px;
+    }
+
+    .dashboard-third-second-section {
+        min-width: 962px;
     }
 }
 
@@ -655,6 +722,19 @@
         max-width: 500px;
         margin-right: 0px;
         margin-top: 1rem;
+    }
+
+    .dashboard-line-chart {
+        max-width: 500px;
+        min-width: 500px;
+    }
+
+    #show-line-chart-1 {
+        display: none;
+    }
+
+    .dashboard-third-second-section {
+        min-width: 500px;
     }
 }
 
