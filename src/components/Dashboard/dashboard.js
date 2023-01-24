@@ -390,27 +390,27 @@ const Dashboard = () => {
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='third-notice'><i class="fa-solid fa-flag"></i>Late Registration of Fall 23<br /><span><i class="fa-solid fa-hand-point-right"></i>Registration Office</span></h5>
+                                            <h5 id='third-notice'><i class="fa-solid fa-flag"></i>Late Registration of Spring 23<br /><span><i class="fa-solid fa-hand-point-right"></i>Registration Office</span></h5>
                                         </div>
                                         <div><h5>18 June '23<br /><span>Academic</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='fourth-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='fourth-notice'><i class="fa-solid fa-flag"></i>Overlap Exam Routine Fall 22<br /><span><i class="fa-solid fa-hand-point-right"></i>Software Engineering</span></h5>
                                         </div>
-                                        <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>17 June '23<br /><span>Examination</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='five-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='fifth-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Electrical and Electronic Engineering</span></h5>
                                         </div>
-                                        <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>16 June '23<br /><span>Routine V1.0</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='six-notice'><i class="fa-solid fa-flag"></i>Spring 2023 Class Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
+                                            <h5 id='sixth-notice'><i class="fa-solid fa-flag"></i>Title Defense Board 193<br /><span><i class="fa-solid fa-hand-point-right"></i>Computer Science and Engineering</span></h5>
                                         </div>
-                                        <div><h5>22 June '23<br /><span>Routine V1.0</span></h5></div>
+                                        <div><h5>11 June '23<br /><span>Academic</span></h5></div>
                                     </div>
                                 </div>
                             </div>

@@ -452,7 +452,7 @@
 }
 
 .notice-info h5 span {
-    color: #646464;
+    color: #646464 !important;
     line-height: 23px;
     font-size: 15px;
 }
@@ -460,11 +460,35 @@
 .notice-info h5 i {
     font-size: 17px;
     padding-right: 1rem;
-    color: rgb(25, 135, 84);
+    color: rgba(118, 25, 135, 0.749);
 }
 
 .notice-info h5 span i {
-    color: #003087;
+    color: #002f87b4;
+}
+
+#first-notice {
+    color: rgb(76, 175, 80);
+}
+
+#second-notice {
+    color: rgb(63, 81, 181);
+}
+
+#third-notice {
+    color: rgb(0, 170, 193);
+}
+
+#fourth-notice {
+    color: rgb(255, 152, 0);
+}
+
+#fifth-notice {
+    color: rgb(63, 81, 181);
+}
+
+#sixth-notice {
+    color: rgb(76, 175, 80);
 }
 
 /* 3rd section end  */
