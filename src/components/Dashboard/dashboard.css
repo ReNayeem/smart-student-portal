@@ -420,6 +420,10 @@
     margin-right: 1rem;
 }
 
+#show-line-chart-2 {
+    display: none;
+}
+
 .dashboard-third-second-section {
     max-width: 458.667px;
     width: 100%;
@@ -724,6 +728,10 @@
         margin-top: 1rem;
     }
 
+    .dashboard-third-section {
+        max-width: 500px;
+    }
+
     .dashboard-line-chart {
         max-width: 500px;
         min-width: 500px;
@@ -731,6 +739,10 @@
 
     #show-line-chart-1 {
         display: none;
+    }
+
+    #show-line-chart-2 {
+        display: block;
     }
 
     .dashboard-third-second-section {
@@ -742,6 +754,10 @@
     .dashboard-first-first-section {
         width: 500px;
         margin-top: 1rem;
+    }
+
+    .dashboard-third-section {
+        margin-bottom: 0px;
     }
 }
 
@@ -802,6 +818,20 @@
 
     .dashboard-second-section {
         max-width: 380px;
+    }
+
+    .dashboard-third-section {
+        max-width: 380px;
+    }
+
+    .dashboard-line-chart {
+        max-width: 380px;
+        min-width: 380px;
+        height: 300px;
+    }
+
+    .dashboard-third-second-section {
+        min-width: 380px;
     }
 }
 
@@ -880,6 +910,37 @@
         width: 40px;
         height: 40px;
         margin-top: 5.1px;
+    }
+
+    .dashboard-second-section {
+        max-width: 340px;
+    }
+
+    .dashboard-third-section {
+        max-width: 340px;
+    }
+
+    .dashboard-line-chart {
+        max-width: 340px;
+        min-width: 340px;
+        height: 300px;
+    }
+
+    .dashboard-third-second-section {
+        min-width: 340px;
+    }
+
+    .notice-info h5 {
+        font-size: 14px;
+    }
+
+    .notice-info h5 span {
+        font-size: 12px;
+    }
+
+    .notice-info h5 i {
+        font-size: 13px;
+        padding-right: .3rem;
     }
 }
 
@@ -970,6 +1031,33 @@
 
     .dashboard-second-third-section .upcoming-class {
         width: 340px;
+    }
+
+    .dashboard-third-section {
+        max-width: 260px;
+    }
+
+    .dashboard-line-chart-1 {
+        max-width: 340px;
+        min-width: 340px;
+    }
+
+    .dashboard-line-chart {
+        max-width: 260px;
+        min-width: 260px;
+        overflow: hidden;
+        overflow-x: scroll !important;
+    }
+
+    .dashboard-third-second-section {
+        max-width: 260px;
+        min-width: 260px;
+        overflow: hidden;
+        overflow-x: scroll !important;
+    }
+
+    .notices {
+        min-width: 340px;
     }
 }
 

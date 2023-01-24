@@ -348,53 +348,55 @@ const Dashboard = () => {
 
                         {/* 3rd section start  */}
                         <div className='dashboard-third-section d-flex'>
-                            <div className='dashboard-line-chart' id='show-line-chart-1'>
-                                <h4>SGPA</h4>
-                                <ResponsiveContainer className='dashboard-line-chart-1'>
-                                    <LineChart
-                                        data={data}
-                                        margin={{
-                                            top: 5,
-                                            right: 0,
-                                            left: -28,
-                                            bottom: 5,
-                                        }}
-                                    >
-                                        <CartesianGrid strokeDasharray="3 3" />
-                                        <XAxis dataKey="semester" />
-                                        <YAxis />
-                                        <Tooltip />
-                                        <Legend />
-                                        <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+                            <div>
+                                <div className='dashboard-line-chart' id='show-line-chart-1'>
+                                    <h4>SGPA</h4>
+                                    <ResponsiveContainer className='dashboard-line-chart-1'>
+                                        <LineChart
+                                            data={data}
+                                            margin={{
+                                                top: 5,
+                                                right: 0,
+                                                left: -28,
+                                                bottom: 5,
+                                            }}
+                                        >
+                                            <CartesianGrid strokeDasharray="3 3" />
+                                            <XAxis dataKey="semester" />
+                                            <YAxis />
+                                            <Tooltip />
+                                            <Legend />
+                                            <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
 
-                                    </LineChart>
+                                        </LineChart>
 
-                                </ResponsiveContainer>
-                                {/* <p className='fig-cgpa'>SGPA</p> */}
-                            </div>
-                            <div className='dashboard-line-chart' id='show-line-chart-2'>
-                                <h4>SGPA</h4>
-                                <ResponsiveContainer className='dashboard-line-chart-1'>
-                                    <LineChart
-                                        data={data}
-                                        margin={{
-                                            top: 5,
-                                            right: 0,
-                                            left: -28,
-                                            bottom: 5,
-                                        }}
-                                    >
-                                        <CartesianGrid strokeDasharray="3 3" />
-                                        <XAxis dataKey="semester" ticks={[1.2, 2.8, 4.4, 6]} />
-                                        <YAxis />
-                                        <Tooltip />
-                                        <Legend />
-                                        <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
+                                    </ResponsiveContainer>
+                                    {/* <p className='fig-cgpa'>SGPA</p> */}
+                                </div>
+                                <div className='dashboard-line-chart' id='show-line-chart-2'>
+                                    <h4>SGPA</h4>
+                                    <ResponsiveContainer className='dashboard-line-chart-1'>
+                                        <LineChart
+                                            data={data}
+                                            margin={{
+                                                top: 5,
+                                                right: 0,
+                                                left: -28,
+                                                bottom: 5,
+                                            }}
+                                        >
+                                            <CartesianGrid strokeDasharray="3 3" />
+                                            <XAxis dataKey="semester" ticks={[1.2, 2.8, 4.4, 6]} />
+                                            <YAxis />
+                                            <Tooltip />
+                                            <Legend />
+                                            <Line type="monotone" dataKey="SGPA" stroke="#1d40fb" activeDot={{ r: 8 }} />
 
-                                    </LineChart>
+                                        </LineChart>
 
-                                </ResponsiveContainer>
-                                {/* <p className='fig-cgpa'>SGPA</p> */}
+                                    </ResponsiveContainer>
+                                    {/* <p className='fig-cgpa'>SGPA</p> */}
+                                </div>
                             </div>
 
                             <div className='dashboard-third-second-section'>
