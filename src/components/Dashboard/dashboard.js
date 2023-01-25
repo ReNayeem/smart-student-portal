@@ -186,11 +186,11 @@ const Dashboard = () => {
                             <div className='d-flex dashboard-first-first-section justify-content-between flex-wrap'>
                                 <div className='dashboard-profile-detail'>
                                     <h3>Your Profile</h3>
-                                    <p><span>Hi Nayeem.</span> You have completed <span>76%</span> of your weekly targets. Keep learning with us like this.</p>
+                                    <p><span>Hi Nayeem.</span> You have completed <span>76%</span> of your overall courses. Keep learning with us like this.</p>
                                     <button>View Profile</button>
                                 </div>
-                                <div className='study-img'>
-                                    {/* <img className='study-img' src={study} alt="" /> */}
+                                <div className='study-radar-chart'>
+                                    {/* <img className='study-radar-chart' src={study} alt="" /> */}
                                     <ResponsiveContainer>
                                         <RadarChart data={data2}>
                                             <PolarGrid />
