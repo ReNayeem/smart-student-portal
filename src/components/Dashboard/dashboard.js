@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, Tooltip, Legend, Line, LineChart, XAxis, YAxis, AreaChart, Area, ResponsiveContainer } from 'recharts';
+import { CartesianGrid, Tooltip, Legend, Line, LineChart, XAxis, YAxis, AreaChart, Area, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
 import './Dashboard.css';
 import study from '../../resources/others/study.png'
 import teacherImg1 from '../../resources/teachersImages/img1.png'
@@ -129,6 +129,58 @@ const Dashboard = () => {
     ]
 
 
+    const data2 = [
+        {
+            "subject": "Math",
+            "A": 120,
+            "B": 110,
+            "fullMark": 150
+        },
+        {
+            "subject": "Chinese",
+            "A": 98,
+            "B": 130,
+            "fullMark": 150
+        },
+        {
+            "subject": "English",
+            "A": 86,
+            "B": 130,
+            "fullMark": 150
+        },
+        {
+            "subject": "Geography",
+            "A": 99,
+            "B": 100,
+            "fullMark": 150
+        },
+        {
+            "subject": "Physics",
+            "A": 85,
+            "B": 90,
+            "fullMark": 150
+        },
+        {
+            "subject": "History",
+            "A": 65,
+            "B": 85,
+            "fullMark": 150
+        },
+        {
+            "subject": "AI",
+            "A": 65,
+            "B": 85,
+            "fullMark": 150
+        },
+        {
+            "subject": "other",
+            "A": 65,
+            "B": 85,
+            "fullMark": 150
+        },
+    ]
+
+
     return (
         <div className='custom-container dashboard'>
             <div className='custom-padding custom-container2'>
@@ -145,8 +197,18 @@ const Dashboard = () => {
                                     <p><span>Hi Nayeem.</span> You have completed <span>70%</span> of your weekly targets. Keep learning with us like this.</p>
                                     <button>View Profile</button>
                                 </div>
-                                <div>
-                                    <img className='study-img' src={study} alt="" />
+                                <div className='study-img'>
+                                    {/* <img className='study-img' src={study} alt="" /> */}
+                                    <ResponsiveContainer>
+                                        <RadarChart outerRadius={90} width={730} height={250} data={data2}>
+                                            <PolarGrid />
+                                            <PolarAngleAxis dataKey="subject" />
+                                            <PolarRadiusAxis angle={30} domain={[0, 150]} />
+                                            <Radar name="Mike" dataKey="A" stroke="#1d40fb" fill="#1d40fb" fillOpacity={0.6} />
+                                            {/* <Radar name="Lily" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} /> */}
+                                            <Legend />
+                                        </RadarChart>
+                                    </ResponsiveContainer>
                                 </div>
                             </div>
                             <div className='dashboard-first-second-section'>
