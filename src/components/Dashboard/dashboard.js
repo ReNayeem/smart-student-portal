@@ -131,52 +131,44 @@ const Dashboard = () => {
 
     const data2 = [
         {
-            "subject": "Math",
-            "A": 120,
-            "B": 110,
-            "fullMark": 150
-        },
-        {
-            "subject": "Chinese",
-            "A": 98,
-            "B": 130,
-            "fullMark": 150
-        },
-        {
-            "subject": "English",
-            "A": 86,
-            "B": 130,
-            "fullMark": 150
-        },
-        {
-            "subject": "Geography",
-            "A": 99,
-            "B": 100,
-            "fullMark": 150
-        },
-        {
-            "subject": "Physics",
-            "A": 85,
-            "B": 90,
-            "fullMark": 150
-        },
-        {
-            "subject": "History",
-            "A": 65,
-            "B": 85,
-            "fullMark": 150
+            "subject": "SP VI",
+            "progress": 100,
+            "fullProgress": 100
         },
         {
             "subject": "AI",
-            "A": 65,
-            "B": 85,
-            "fullMark": 150
+            "progress": 70,
+            "fullProgress": 100
         },
         {
-            "subject": "other",
-            "A": 65,
-            "B": 85,
-            "fullMark": 150
+            "subject": "PR",
+            "progress": 50,
+            "fullProgress": 100
+        },
+        {
+            "subject": "WE",
+            "progress": 90,
+            "fullProgress": 100
+        },
+        {
+            "subject": "WE Lab",
+            "progress": 90,
+            "fullProgress": 100
+        },
+        {
+            "subject": "DIP",
+            "progress": 66,
+            "fullProgress": 100
+        },
+        {
+            "subject": "IS",
+            "progress": 75,
+            "fullProgress": 100
+        },
+        {
+            "subject": "SE",
+            "progress": 63,
+            "fullProgress": 100
         },
     ]
 
@@ -194,17 +186,17 @@ const Dashboard = () => {
                             <div className='d-flex dashboard-first-first-section justify-content-between flex-wrap'>
                                 <div className='dashboard-profile-detail'>
                                     <h3>Your Profile</h3>
-                                    <p><span>Hi Nayeem.</span> You have completed <span>70%</span> of your weekly targets. Keep learning with us like this.</p>
+                                    <p><span>Hi Nayeem.</span> You have completed <span>76%</span> of your weekly targets. Keep learning with us like this.</p>
                                     <button>View Profile</button>
                                 </div>
                                 <div className='study-img'>
                                     {/* <img className='study-img' src={study} alt="" /> */}
                                     <ResponsiveContainer>
-                                        <RadarChart outerRadius={90} width={730} height={250} data={data2}>
+                                        <RadarChart data={data2}>
                                             <PolarGrid />
                                             <PolarAngleAxis dataKey="subject" />
-                                            <PolarRadiusAxis angle={30} domain={[0, 150]} />
-                                            <Radar name="Mike" dataKey="A" stroke="#1d40fb" fill="#1d40fb" fillOpacity={0.6} />
+                                            <PolarRadiusAxis angle={30} domain={[0, 100]} />
+                                            <Radar name="Mike" dataKey="progress" stroke="#1d40fb" fill="#1d40fb" fillOpacity={0.6} />
                                             {/* <Radar name="Lily" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} /> */}
                                             <Legend />
                                         </RadarChart>
