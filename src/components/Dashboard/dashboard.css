@@ -564,6 +564,10 @@ li .recharts-surface {
         width: 490px !important;
     }
 
+    .study-radar-chart {
+        width: 280px;
+    }
+
     .dashboard-first-second-section {
         width: 378px;
     }
@@ -710,6 +714,10 @@ li .recharts-surface {
         margin-right: 0rem !important;
     }
 
+    .study-radar-chart {
+        width: 250px;
+    }
+
     .dashboard-profile-detail {
         width: 250px !important;
     }
@@ -791,7 +799,14 @@ li .recharts-surface {
     .dashboard-first-first-section {
         width: 380px;
         flex-direction: column;
-        height: 455px;
+        height: 553px;
+        z-index: -20;
+    }
+
+    .study-radar-chart {
+        width: 380px;
+        height: 380px;
+        z-index: -10;
     }
 
     .dashboard-profile-detail {
@@ -863,13 +878,18 @@ li .recharts-surface {
     .dashboard-first-first-section {
         width: 340px;
         flex-direction: column;
-        height: 455px;
+        height: 512px;
     }
 
     .dashboard-profile-detail {
         width: 340px !important;
         order: 1;
         padding: 0rem 1rem 1rem 1rem !important;
+    }
+
+    .study-radar-chart {
+        width: 340px;
+        height: 340px;
     }
 
     .dashboard-first-second-section {
@@ -974,13 +994,18 @@ li .recharts-surface {
     .dashboard-first-first-section {
         width: 260px;
         flex-direction: column;
-        height: 455px;
+        height: 466px;
     }
 
     .dashboard-profile-detail {
         width: 260px !important;
         order: 1;
         padding: 0rem 1rem 1rem 1rem !important;
+    }
+
+    .study-radar-chart {
+        width: 270px;
+        height: 270px;
     }
 
     .dashboard-first-second-section {
