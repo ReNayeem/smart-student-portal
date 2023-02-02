@@ -110,7 +110,7 @@
     color: white;
     padding: 1.175rem;
     border-radius: .5rem;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 0px 16px;
 }
 
 .upcoming-one h3 {
@@ -136,7 +136,7 @@
     margin-top: 1rem;
     border-radius: .5rem;
     /* box-shadow: 5px 5px 85px 5px rgba(239, 62, 255, 0.301); */
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 0px 16px;
 }
 
 .upcoming-two h3 {
