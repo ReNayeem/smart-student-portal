@@ -132,12 +132,12 @@ const Dashboard = () => {
     const data2 = [
         {
             "subject": "SP VI",
-            "progress": 100,
+            "progress": 50,
             "fullProgress": 100
         },
         {
             "subject": "AI",
-            "progress": 70,
+            "progress": 30,
             "fullProgress": 100
         },
         {
@@ -147,12 +147,12 @@ const Dashboard = () => {
         },
         {
             "subject": "WE",
-            "progress": 90,
+            "progress": 100,
             "fullProgress": 100
         },
         {
             "subject": "WE Lab",
-            "progress": 90,
+            "progress": 100,
             "fullProgress": 100
         },
         {
@@ -186,7 +186,7 @@ const Dashboard = () => {
                             <div className='d-flex dashboard-first-first-section justify-content-between flex-wrap'>
                                 <div className='dashboard-profile-detail'>
                                     <h3>Your Profile</h3>
-                                    <p><span>Hi Nayeem.</span> You have completed <span>76%</span> of your overall courses. Keep learning with us like this.</p>
+                                    <p><span>Hi Nayeem.</span> You have completed <span>76%</span> of your weekly target. Keep learning with us like this.</p>
                                     <button>View Profile</button>
                                 </div>
                                 <div className='study-radar-chart'>
