@@ -513,6 +513,12 @@ li .recharts-surface {
 /* 3rd section end  */
 
 
+@media screen and (min-width: 1691px) {
+    .dashboard-line-chart {
+        min-width: 933.317px;
+    }
+}
+
 @media screen and (max-width: 1691px) {
     .dashboard-first-first-section {
         width: 852px;
