@@ -8,6 +8,7 @@ import teacherImg3 from '../../resources/teachersImages/img3.png'
 import teacherImg4 from '../../resources/teachersImages/img4.png'
 import teacherImg5 from '../../resources/teachersImages/img5.png'
 import teacherImg6 from '../../resources/teachersImages/img6.png'
+import { NavLink } from 'react-router-dom';
 
 
 const Dashboard = () => {
@@ -187,7 +188,7 @@ const Dashboard = () => {
                                 <div className='dashboard-profile-detail'>
                                     <h3>Your Profile</h3>
                                     <p><span>Hi Nayeem.</span> You have completed <span>76%</span> of your weekly target. Keep learning with us like this.</p>
-                                    <button>View Profile</button>
+                                    <NavLink to='/profile'><button>View Profile</button></NavLink>
                                 </div>
                                 <div className='study-radar-chart'>
                                     {/* <img className='study-radar-chart' src={study} alt="" /> */}

@@ -30,7 +30,7 @@ const Sidebar = () => {
         <header className={`header header2 ${show ? 'space-toggle' : null}`}>
           <div className='header-toggle d-flex align-items-center'>
             <i onClick={() => setShow(!show)} className={`fas  header-toggle fa-bars ${show ? 'fa-solid fa-xmark' : null}`}></i>
-            <NavLink to='/result'><img className='profile-img' src={profileImg} alt="" /></NavLink>
+            <NavLink to='/profile'><img className='profile-img' src={profileImg} alt="" /></NavLink>
           </div>
           <img className='logo' src={logo} alt="" />
         </header>

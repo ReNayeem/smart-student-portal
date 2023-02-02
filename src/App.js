@@ -3,7 +3,7 @@ import Result from './components/Result/Result';
 import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/home';
 import Dashboard from './components/Dashboard/Dashboard';
-import Profile from './components/Profile/profile';
+import Profile from './components/Profile/Profile';
 import Footer from './components/Footer/footer';
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
