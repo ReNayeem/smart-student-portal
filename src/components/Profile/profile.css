@@ -1,9 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+
+:root {
+    --header-height: 40px;
+    --nav-width: 256px;
+
+    --first-color: #fff;
+    --active-side-color: #1d40fb;
+    --active-side-color-3: #1d3efbec;
+    --first-color-alt: #0d0906;
+    --white-color: #fff;
+    --active-side-color-2: #003087;
+    --button-color: #2070ba;
+    --text-color: #006dd3;
+    --non-active-color: #bcbbc1;
+    --fade-color: #bcbcbc;
+    --more-fade-color: #e6e6e6;
+    --on-active-color: #0d0906;
+    --not-black: rgb(36, 36, 36);
+    --section-head-color: #5b626b;
+
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+}
+
 .profile {
     margin-bottom: 2rem;
 }
 
 .profile-details {
     border-radius: .5rem;
-    padding: 1rem;
+    padding: 3rem 4rem;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    min-height: calc(100vh - 56px - 16px - 16px - 16px - 16px);
 }
+
+.profile-img-2 {
+    width: 250px;
+    border-radius: .5rem;
+    margin-right: 5rem;
+}
+
+.profile-first-section {
+    display: flex;
+}
+
+.profile-first-section h2 {
+    color: rgb(91, 107, 119);
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.profile-first-section h5 {
+    color: rgb(90, 178, 247);
+    font-family: var(--roboto);
+    font-size: 18px;
+    padding-left: .1rem;
+}
+
+.profile-first-section p {
+    margin-top: 3rem;
+    font-size: 11px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--fade-color);
+}
+
+/* 
+.profile-second-section {
+    height: 10vh;
+    background-color: cadetblue;
+    width: 10vw;
+} */
