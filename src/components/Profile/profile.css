@@ -73,12 +73,12 @@
 .profile-first-section h5 {
     color: rgb(90, 178, 247);
     font-family: var(--roboto);
-    font-size: 18px;
+    font-size: 17px;
     padding-left: .1rem;
 }
 
 .profile-first-section p {
-    margin-top: 3rem;
+    margin-top: 4rem;
     font-size: 11px;
     font-family: var(--poppins);
     font-weight: 500;
@@ -91,6 +91,23 @@
 
 .profile-first-section h3 span i {
     color: rgb(90, 178, 247);
+}
+
+.profile-first-section button {
+    background-color: white;
+    margin-top: .5rem;
+    padding: .7rem 6rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(90, 178, 247);
+    color: rgb(17, 152, 255);
+    font-family: var(--poppins);
+    font-weight: 500;
+    transition: 1s all ease;
+}
+
+.profile-first-section button:hover {
+    background-color: rgb(90, 178, 247);
+    color: white;
 }
 
 /* 
