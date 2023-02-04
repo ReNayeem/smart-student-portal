@@ -26,18 +26,22 @@
 }
 
 .profile {
-    margin-bottom: 2rem;
+    margin-bottom: 2.2rem;
+    min-height: calc(100vh - 56px - 18px - 16px - 16px - 16px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .profile-details {
     border-radius: .5rem;
     padding: 3rem 4rem;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-    min-height: calc(100vh - 56px - 16px - 16px - 16px - 16px);
+    /* min-height: calc(100vh - 56px - 16px - 16px - 16px - 16px); */
 }
 
 .profile-img-2 {
-    width: 250px;
+    width: 281px;
     border-radius: .5rem;
     margin-right: 5rem;
 }
@@ -47,7 +51,7 @@
 }
 
 .profile-name {
-    min-width: 950px;
+    min-width: 919px;
 }
 
 .profile-first-section h2,
@@ -78,7 +82,7 @@
 }
 
 .profile-first-section p {
-    margin-top: 4rem;
+    margin-top: 4.4rem;
     font-size: 11px;
     font-family: var(--poppins);
     font-weight: 500;
@@ -93,10 +97,30 @@
     color: rgb(90, 178, 247);
 }
 
+.profile-first-section a {
+    color: #3c4f5e !important;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-weight: 500;
+    margin-left: .1rem;
+    margin-right: 2rem;
+    font-family: var(--poppins);
+    font-size: 20px;
+    transition: 1s all ease;
+}
+
+.profile-first-section a i {
+    margin-right: .6rem;
+}
+
+.profile-first-section a:hover {
+    color: rgb(90, 178, 247) !important;
+}
+
 .profile-first-section button {
     background-color: white;
-    margin-top: .5rem;
-    padding: .7rem 6rem;
+    margin-top: 1rem;
+    padding: 1rem 6rem;
     border-radius: .5rem;
     border: 1px solid rgb(90, 178, 247);
     color: rgb(17, 152, 255);
@@ -110,9 +134,80 @@
     color: white;
 }
 
-/* 
+.profile-hr {
+    margin: 2rem 0rem 1.5rem 0rem;
+}
+
+
 .profile-second-section {
-    height: 10vh;
-    background-color: cadetblue;
-    width: 10vw;
-} */
+    display: flex;
+}
+
+.profile-second-first-section {
+    width: 300px;
+    margin-right: calc(5rem - 19px);
+}
+
+.profile-second-first-section h5 {
+    color: rgb(91, 107, 119);
+    font-family: var(--roboto);
+    font-size: 18px;
+    /* margin-top: 1.5rem; */
+}
+
+.profile-second-first-section P {
+    margin: 0;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--fade-color);
+    font-size: 15px;
+}
+
+.profile-hr-2 {
+    margin-top: 1.4rem;
+}
+
+.profile-second-first-section button {
+    margin-left: 1rem;
+    padding: .2rem .4rem .2rem .4rem;
+    margin-top: -.6rem;
+    border: none;
+    background-color: #e3f2fd;
+    color: #4facf4;
+    font-family: var(--poppins);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: .5rem;
+    cursor: text;
+}
+
+.virtual-contact-information p,
+.basic-information p {
+    color: var(--fade-color);
+    font-family: var(--roboto);
+    font-size: 18px;
+    margin: 0;
+}
+
+.virtual-contact-information h5,
+.virtual-contact-information a,
+.basic-information h5 {
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: rgb(17, 152, 255);
+    font-size: 16px;
+    margin-top: .88rem;
+}
+
+.profile-text-width {
+    width: 120px;
+    color: rgb(91, 107, 119) !important;
+}
+
+.virtual-contact-information a {
+    color: rgb(17, 152, 255) !important;
+}
+
+.basic-information h5 {
+    color: rgb(91, 107, 119) !important;
+}
