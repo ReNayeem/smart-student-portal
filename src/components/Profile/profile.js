@@ -24,7 +24,7 @@ const profile = () => {
                                 <p>OVERALL TERM RATINGS</p>
                                 <h3>8,2 <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i className="fa-regular rating fa-star"></i></span></h3>
 
-                                <div className='d-flex'>
+                                <div className='d-flex profile-buttons'>
                                     <a target='_blank' href="https://t.me/FateNayeam"><i class="fa-solid fa-message"></i>Send message</a>
                                     <button>UPDATE PROFILE</button>
                                 </div>
@@ -66,6 +66,8 @@ const profile = () => {
 
                             </div>
 
+                            <hr className='profile-hr-3' />
+
                             <div className='profile-second-second-section'>
                                 <div className='virtual-contact-information'>
                                     <p>VIRTUAL CONTACT INFORMATION</p>
@@ -73,7 +75,7 @@ const profile = () => {
                                         <h5 className='profile-text-width'>Phone: </h5>
                                         <h5>+8801794354468</h5>
                                     </div>
-                                    <div className='d-flex'>
+                                    <div className='d-flex profile-email'>
                                         <h5 className='profile-text-width'>E-mail: </h5>
                                         <h5>nayeem15-13434@diu.edu.bd</h5>
                                     </div>
