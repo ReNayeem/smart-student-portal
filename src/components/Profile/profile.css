@@ -211,3 +211,33 @@
 .basic-information h5 {
     color: rgb(91, 107, 119) !important;
 }
+
+@media screen and (max-width: 1695px) {
+    .profile-name {
+        min-width: 819px;
+    }
+}
+
+@media screen and (max-width: 1595px) {
+    .profile-name {
+        min-width: 719px;
+    }
+}
+
+@media screen and (max-width: 1495px) {
+    .profile-name {
+        min-width: 619px;
+    }
+}
+
+@media screen and (max-width: 1395px) {
+    .profile-name {
+        min-width: 519px;
+    }
+}
+
+@media screen and (max-width: 1295px) {
+    .profile-name {
+        min-width: 419px;
+    }
+}
