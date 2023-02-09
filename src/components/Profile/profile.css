@@ -3,7 +3,6 @@
 :root {
     --header-height: 40px;
     --nav-width: 256px;
-
     --first-color: #fff;
     --active-side-color: #1d40fb;
     --active-side-color-3: #1d3efbec;
@@ -18,7 +17,6 @@
     --on-active-color: #0d0906;
     --not-black: rgb(36, 36, 36);
     --section-head-color: #5b626b;
-
     --poppins: 'Poppins', sans-serif;
     --roboto: 'Roboto', sans-serif;
     --inter: 'Inter', sans-serif;
@@ -37,7 +35,6 @@
     border-radius: .5rem;
     padding: 3rem 4rem;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-    /* min-height: calc(100vh - 56px - 16px - 16px - 16px - 16px); */
 }
 
 .profile-img-2 {
@@ -152,7 +149,6 @@
     color: rgb(91, 107, 119);
     font-family: var(--roboto);
     font-size: 18px;
-    /* margin-top: 1.5rem; */
 }
 
 .profile-second-first-section P {
@@ -222,27 +218,44 @@
     }
 }
 
+@media screen and (max-width: 1540px) {
+    .profile-details {
+        width: 1166px;
+    }
+
+    .profile-name {
+        min-width: 680px !important;
+    }
+}
+
 @media screen and (max-width: 1595px) {
     .profile-name {
-        min-width: 719px;
+        min-width: 719px !important;
+    }
+}
+
+@media screen and (max-width: 1465px) {
+    .profile-details {
+        width: auto;
     }
 }
 
 @media screen and (max-width: 1495px) {
     .profile-name {
-        min-width: 619px;
+        min-width: 619px !important;
     }
 }
 
 @media screen and (max-width: 1395px) {
     .profile-name {
-        min-width: 519px;
+        min-width: 519px !important;
     }
 }
 
 @media screen and (max-width: 1315px) {
+
     .profile-name {
-        min-width: 724.217px;
+        min-width: 724.217px !important;
     }
 
     .profile-first-section {
@@ -259,53 +272,36 @@
 
     .profile-first-section p {
         margin-top: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .profile-details {
+        width: 962px;
+    }
+
+    .profile-name {
+        min-width: 835px !important;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    .profile-details {
+        width: auto;
+    }
+
+    .profile-name {
+        min-width: 724.217px !important;
     }
 }
 
 @media screen and (max-width: 1142px) {
-    .profile-name {
-        min-width: 524.217px;
-        flex-direction: column;
-    }
-
-    .profile-first-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .profile-img-2 {
-        width: 281px;
-        border-radius: 50%;
-        margin-right: 0rem;
-        margin-bottom: 1rem;
-    }
-
-    .profile-first-section p {
-        margin-top: 2.4rem;
-    }
-
-    .profile-second-section {
-        flex-direction: column;
-    }
-
-    .profile-hr-3 {
-        display: block;
-        margin-top: 1.4rem;
-    }
-
-    .profile-second-first-section {
-        width: 100%;
-        margin-right: 0;
-    }
-}
-
-@media screen and (max-width: 952px) {
     .profile-details {
         padding: 2rem 3rem;
     }
 
     .profile-name {
-        min-width: 404px;
+        min-width: 404px !important;
         flex-direction: column;
     }
 
@@ -351,10 +347,11 @@
 @media screen and (max-width: 767px) {
     .profile {
         margin-top: 4.5rem;
+        margin-bottom: 1rem;
     }
 
     .profile-name {
-        min-width: 524.217px;
+        min-width: 524.217px !important;
         flex-direction: column;
     }
 
@@ -399,7 +396,7 @@
     }
 
     .profile-name {
-        min-width: 363.217px;
+        min-width: 363.217px !important;
         flex-direction: column;
     }
 
@@ -442,6 +439,72 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .profile {
+        margin-top: 4.5rem;
+    }
+
+    .profile-details {
+        padding: 2rem 3rem;
+    }
+
+    .profile-name {
+        min-width: 363.217px !important;
+        flex-direction: column;
+    }
+
+    .profile-first-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-img-2 {
+        width: 281px;
+        border-radius: 50%;
+        margin-right: 0rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .profile-first-section a {
+        margin-top: 0rem !important;
+    }
+
+    .profile-first-section button {
+        margin-top: 0rem;
+    }
+
+    .profile-first-section p {
+        margin-top: 1rem;
+        text-align: end;
+    }
+
+    .profile-first-section h3 {
+        text-align: end;
+    }
+
+    .profile-buttons {
+        flex-direction: column;
+    }
+
+    .profile-first-section a {
+        margin-top: .3rem;
+    }
+
+    .profile-second-section {
+        flex-direction: column;
+    }
+
+    .profile-hr-3 {
+        display: block;
+        margin-top: 1.4rem;
+    }
+
+    .profile-second-first-section {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width: 492px) {
     .profile-details {
         padding: 1rem 1rem;
@@ -450,7 +513,7 @@
 
 @media screen and (max-width: 427px) {
     .profile-name {
-        min-width: 348px;
+        min-width: 348px !important;
     }
 
     .profile-text-width {
@@ -458,7 +521,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 411px) {
     .profile-details {
         min-width: 358px;
     }
@@ -468,7 +531,7 @@
     }
 
     .profile-name {
-        min-width: 296px;
+        min-width: 296px !important;
     }
 
     .profile-first-section button {
@@ -491,7 +554,7 @@
     }
 
     .profile-name {
-        min-width: 296px;
+        min-width: 296px !important;
     }
 
     .profile-first-section button {
@@ -504,7 +567,7 @@
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 390px) {
     .profile-details {
         min-width: 340px;
     }
@@ -528,7 +591,7 @@
     }
 
     .profile-name {
-        min-width: 230px;
+        min-width: 230px !important;
     }
 
     .profile-first-section button {
