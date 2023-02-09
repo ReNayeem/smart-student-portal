@@ -386,7 +386,7 @@ const Dashboard = () => {
                                             </div>
                                             <div><h5>18 June '23<br /><span>11:00-12:30</span></h5></div>
                                         </div>
-                                        <div className='d-flex justify-content-between class-info'>
+                                        <div className='d-flex justify-content-between class-info class-info-hidden'>
                                             <div className='d-flex assignment-name'>
                                                 <img src={teacherImg6} alt="" />
                                                 <h5>Narayan Chakraborty <br /><span>Digital Image Processing</span></h5>
