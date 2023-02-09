@@ -27,6 +27,10 @@
 
 .dashboard {
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 56px - 18px - 16px - 16px);
 }
 
 .custom-container2 {
@@ -882,30 +886,30 @@ li .recharts-surface {
 @media screen and (max-width: 389px) {
 
     .dashboard-first-first-section {
-        width: 340px;
+        width: 328px;
         flex-direction: column;
         height: 513px;
     }
 
     .dashboard-profile-detail {
-        width: 340px !important;
+        width: 328px !important;
         order: 1;
         padding: 0rem 1rem 1rem 1rem !important;
     }
 
     .study-radar-chart {
-        width: 340px;
-        height: 340px;
+        width: 328px;
+        height: 328px;
     }
 
     .dashboard-first-second-section {
         margin-left: 0rem !important;
         height: auto !important;
-        width: 340px !important;
+        width: 328px !important;
     }
 
     .study-radar-chart {
-        max-width: 340px !important;
+        max-width: 328px !important;
         padding: 0rem 0rem 0 0rem !important;
     }
 
@@ -914,7 +918,7 @@ li .recharts-surface {
     }
 
     .upcoming-one {
-        width: 340px;
+        width: 328px;
     }
 
     .upcoming-one h3 {
@@ -926,7 +930,7 @@ li .recharts-surface {
     }
 
     .upcoming-two {
-        width: 340px;
+        width: 328px;
     }
 
     .upcoming-two h3 {
@@ -938,7 +942,7 @@ li .recharts-surface {
     }
 
     .dashboard-second-section {
-        max-width: 340px;
+        max-width: 328px;
     }
 
     .dashboard-second-first-section {
@@ -962,21 +966,21 @@ li .recharts-surface {
     }
 
     .dashboard-second-section {
-        max-width: 340px;
+        max-width: 328px;
     }
 
     .dashboard-third-section {
-        max-width: 340px;
+        max-width: 328px;
     }
 
     .dashboard-line-chart {
-        max-width: 340px;
-        min-width: 340px;
+        max-width: 328px;
+        min-width: 328px;
         height: 300px;
     }
 
     .dashboard-third-second-section {
-        min-width: 340px;
+        min-width: 328px;
     }
 
     .notice-info h5 {
@@ -1084,7 +1088,7 @@ li .recharts-surface {
     }
 
     .dashboard-second-third-section .upcoming-class {
-        width: 340px;
+        width: 328px;
     }
 
     .dashboard-third-section {
@@ -1092,8 +1096,8 @@ li .recharts-surface {
     }
 
     .dashboard-line-chart-1 {
-        max-width: 340px;
-        min-width: 340px;
+        max-width: 328px;
+        min-width: 328px;
     }
 
     .dashboard-line-chart {
@@ -1111,7 +1115,7 @@ li .recharts-surface {
     }
 
     .notices {
-        min-width: 340px;
+        min-width: 328px;
     }
 }
 

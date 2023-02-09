@@ -465,19 +465,19 @@ const Dashboard = () => {
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='second-notice'><i class="fa-solid fa-flag"></i>Improvement/Make-up exam<br /><span><i class="fa-solid fa-hand-point-right"></i>EEE</span></h5>
+                                            <h5 id='second-notice'><i class="fa-solid fa-flag"></i>Make-up Exam Routine<br /><span><i class="fa-solid fa-hand-point-right"></i>EEE</span></h5>
                                         </div>
                                         <div><h5>18 June '23<br /><span>Examination</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='third-notice'><i class="fa-solid fa-flag"></i>Late Registration of Spring 23<br /><span><i class="fa-solid fa-hand-point-right"></i>Registration Office</span></h5>
+                                            <h5 id='third-notice'><i class="fa-solid fa-flag"></i>Late Registration Notice<br /><span><i class="fa-solid fa-hand-point-right"></i>Registration Office</span></h5>
                                         </div>
                                         <div><h5>18 June '23<br /><span>Academic</span></h5></div>
                                     </div>
                                     <div className='d-flex justify-content-between notice-info'>
                                         <div>
-                                            <h5 id='fourth-notice'><i class="fa-solid fa-flag"></i>Overlap Exam Routine Fall 22<br /><span><i class="fa-solid fa-hand-point-right"></i>SE</span></h5>
+                                            <h5 id='fourth-notice'><i class="fa-solid fa-flag"></i>Overlap Exam Fall 2022<br /><span><i class="fa-solid fa-hand-point-right"></i>SE</span></h5>
                                         </div>
                                         <div><h5>17 June '23<br /><span>Examination</span></h5></div>
                                     </div>
