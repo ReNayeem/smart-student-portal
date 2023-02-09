@@ -79,7 +79,7 @@ const profile = () => {
                                         <h5 className='profile-text-width'>E-mail: </h5>
                                         <h5>nayeem15-13434@diu.edu.bd</h5>
                                     </div>
-                                    <div className='d-flex'>
+                                    <div className='d-flex align-items-center'>
                                         <h5 className='profile-text-width'>Site: </h5>
                                         <a href="https://renayeem.netlify.com" target='_blank'>renayeem.netlify.com</a>
                                     </div>
