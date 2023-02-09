@@ -304,6 +304,7 @@ a {
 
 .show {
   left: 0;
+  z-index: 20;
 }
 
 .space-toggle {
