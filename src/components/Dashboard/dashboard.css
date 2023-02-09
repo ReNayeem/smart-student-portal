@@ -779,13 +779,11 @@ li .recharts-surface {
         width: 380px;
         flex-direction: column;
         height: 554px;
-        z-index: -20;
     }
 
     .study-radar-chart {
         width: 380px;
         height: 380px;
-        z-index: -10;
     }
 
     .dashboard-profile-detail {
