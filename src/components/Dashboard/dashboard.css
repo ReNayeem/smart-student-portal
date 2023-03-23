@@ -505,13 +505,13 @@ li .recharts-surface {
 /* 3rd section end  */
 
 
-@media screen and (min-width: 1691px) {
+@media screen and (min-width: 1695px) {
     .dashboard-line-chart {
         min-width: 933.317px;
     }
 }
 
-@media screen and (max-width: 1691px) {
+@media screen and (max-width: 1695px) {
     .dashboard-first-first-section {
         width: 852px;
     }
@@ -547,7 +547,7 @@ li .recharts-surface {
     }
 }
 
-@media screen and (max-width: 1540px) {
+@media screen and (max-width: 1573px) {
     .dashboard-first-first-section {
         width: 772px;
     }
@@ -645,7 +645,7 @@ li .recharts-surface {
     }
 }
 
-@media screen and (max-width: 1352px) {
+@media screen and (max-width: 1357px) {
     .dashboard-first-first-section {
         width: 600px;
     }
