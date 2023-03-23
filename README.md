@@ -56,3 +56,8 @@ https://micro-center-official.web.app/
 <!-- <li>npm install --save @stripe/react-stripe-js @stripe/stripe-js</li> -->
 <!-- <li>npm install sweetalert2</li> -->
 <!-- <li>npm i react-query</li> -->
+
+<h3>References:</h3>
+<a href="https://www.youtube.com/watch?v=RiF1VFwgbOs&ab_channel=YPCODE">Sidebar YouTube Link</a>
+<a href="https://github.com/abdulaziz-m5u/react-sidebar-responsive">Sidebar GitHub Link</a>
+
