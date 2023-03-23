@@ -215,7 +215,13 @@
 
 @media screen and (max-width: 1695px) {
     .profile-name {
-        min-width: 819px;
+        min-width: 796.93px;
+    }
+}
+
+@media screen and (max-width: 1595px) {
+    .profile-name {
+        min-width: 719px !important;
     }
 }
 
@@ -226,12 +232,6 @@
 
     .profile-name {
         min-width: 680px !important;
-    }
-}
-
-@media screen and (max-width: 1595px) {
-    .profile-name {
-        min-width: 719px !important;
     }
 }
 
