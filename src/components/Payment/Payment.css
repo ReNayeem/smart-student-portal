@@ -136,4 +136,26 @@
 .payment-first-fourth-section {
     margin-top: 1.55rem;
     text-align: center;
+    cursor: pointer;
+}
+
+.payment-first-fourth-section:hover .upcoming-payment {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.payment-first-fourth-section .upcoming-payment-last-date {
+    margin-top: -2.3rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.payment-first-fourth-section:hover .upcoming-payment-last-date {
+    visibility: visible;
+    opacity: 1;
+}
+
+.upcoming-payment-text {
+    visibility: hidden;
+    opacity: 0;
 }
