@@ -8,10 +8,12 @@ const Payment = () => {
                 <div className='custom-width'>
                     <div className='payment-details d-flex'>
                         <div>
-                            <h2>Payment Details</h2>
+                            <h2 className='mt-1'>Payment Details</h2>
                             <div className='d-flex'>
                                 <div className='payment-first-first-section'>
-                                    <h5>Total Payable</h5>
+                                    <i class="fa-solid fa-wallet"></i>
+                                    <h5>Payable</h5>
+                                    <h3>৳888888</h3>
                                 </div>
                                 <div className='payment-first-second-section'>
                                     <h5>Total Paid</h5>

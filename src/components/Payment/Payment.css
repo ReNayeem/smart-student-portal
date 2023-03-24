@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+
+:root {
+    --header-height: 40px;
+    --nav-width: 256px;
+    --first-color: #fff;
+    --active-side-color: #1d40fb;
+    --active-side-color-3: #1d3efbec;
+    --first-color-alt: #0d0906;
+    --white-color: #fff;
+    --active-side-color-2: #003087;
+    --button-color: #2070ba;
+    --text-color: #006dd3;
+    --icon-color: #3f5fca;
+    --non-active-color: #bcbbc1;
+    --fade-color: #bcbcbc;
+    --fade-color-2: #f4f4f4;
+    --fade-color-3: #acacac;
+    --more-fade-color: #e6e6e6;
+    --on-active-color: #0d0906;
+    --gradient-background: linear-gradient(223deg, rgba(0, 40, 179, 1) 35%, rgba(4, 22, 192, 1) 100%);
+    --not-black: rgb(36, 36, 36);
+    --section-head-color: #5b626b;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --manrope: 'Manrope', sans-serif;
+}
+
 .payment {
     margin-bottom: 2.2rem;
     /* min-height: calc(100vh - 56px - 18px - 16px - 16px - 16px); */
@@ -14,6 +43,38 @@
 .payment-first-first-section {
     margin-right: 1rem;
     width: 355px;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-family: var(--poppins);
+    transition: 1s all ease;
+}
+
+.payment-first-first-section:hover {
+    background: rgb(57, 89, 201);
+}
+
+.payment-first-first-section i {
+    color: var(--icon-color);
+    background-color: var(--fade-color-2);
+    padding: 1.2rem;
+    font-size: 27px;
+    margin-top: .3rem;
+    border-radius: 50%;
+}
+
+.payment-first-first-section h5 {
+    margin-top: 1.1rem;
+    color: var(--fade-color-3);
+    font-weight: 600;
+}
+
+.payment-first-first-section h3 {
+    margin-top: .9rem;
+    font-weight: 700;
+    color: var(--not-black);
 }
 
 .payment-first-second-section {
