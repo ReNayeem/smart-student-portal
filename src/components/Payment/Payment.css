@@ -1,0 +1,33 @@
+.payment {
+    margin-bottom: 2.2rem;
+    /* min-height: calc(100vh - 56px - 18px - 16px - 16px - 16px); */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* .payment-details {
+    background-color: cadetblue;
+    padding-top: 1rem;
+} */
+
+.payment-first-first-section {
+    margin-right: 1rem;
+    width: 355px;
+}
+
+.payment-first-second-section {
+    margin-right: 1rem;
+    width: 355px;
+}
+
+.payment-first-third-section {
+    margin-right: 1rem;
+    margin-top: 46px;
+    width: 355px;
+}
+
+.payment-first-forth-section {
+    /* margin-right: 1rem; */
+    width: 355px;
+}
