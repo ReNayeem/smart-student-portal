@@ -40,9 +40,15 @@
     padding-top: 1rem;
 } */
 
-.payment-first-first-section {
-    margin-right: 1rem;
-    width: 355px;
+.payment-details h2 {
+    font-weight: 700;
+    font-family: var(--manrope);
+    color: #282828e8;
+}
+
+.payment-first-section {
+    width: 340px;
+    height: 231.8px;
     background-color: white;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     padding: 2rem;
@@ -50,45 +56,84 @@
     margin-top: 1rem;
     font-family: var(--poppins);
     transition: 1s all ease;
+    /* cursor: pointer; */
 }
 
-.payment-first-first-section:hover {
-    background: rgb(57, 89, 201);
-}
-
-.payment-first-first-section i {
+.payment-first-section i {
     color: var(--icon-color);
     background-color: var(--fade-color-2);
     padding: 1.2rem;
     font-size: 27px;
     margin-top: .3rem;
     border-radius: 50%;
+    transition: .5s all ease;
 }
 
-.payment-first-first-section h5 {
+.payment-first-section h5 {
     margin-top: 1.1rem;
     color: var(--fade-color-3);
     font-weight: 600;
+    transition: 1s all ease;
 }
 
-.payment-first-first-section h3 {
+.payment-first-section h3 {
     margin-top: .9rem;
     font-weight: 700;
     color: var(--not-black);
+    transition: 1s all ease;
 }
+
+.payment-first-first-section {
+    margin-right: 1rem;
+    background: rgb(65, 106, 254);
+    box-shadow: rgba(29, 29, 152, 0.3) 0px 0px 16px;
+}
+
+/* .payment-first-first-section:hover {
+    margin-top: -.01rem;
+} */
+
+/* .payment-first-first-section:hover {
+    background: rgb(0, 44, 204);
+    box-shadow: rgba(29, 29, 152, 0.3) 0px 0px 16px;
+} */
+
+.payment-first-first-section i {
+    background-color: rgba(245, 245, 245, 0.197);
+    color: var(--white-color);
+}
+
+/* .payment-first-first-section:hover i {
+    background-color: rgba(245, 245, 245, 0.197);
+    color: var(--white-color);
+} */
+
+.payment-first-first-section h5 {
+    color: rgba(245, 245, 245, 0.815);
+}
+
+/* .payment-first-first-section:hover h5 {
+    color: rgba(245, 245, 245, 0.815);
+} */
+
+.payment-first-first-section h3 {
+    color: white;
+}
+
+/* .payment-first-first-section:hover h3 {
+    color: white;
+} */
 
 .payment-first-second-section {
     margin-right: 1rem;
-    width: 355px;
 }
 
 .payment-first-third-section {
     margin-right: 1rem;
-    margin-top: 46px;
-    width: 355px;
+    margin-top: 4.2rem;
 }
 
-.payment-first-forth-section {
-    /* margin-right: 1rem; */
-    width: 355px;
+.payment-first-fourth-section {
+    margin-top: 1.55rem;
+    text-align: center;
 }
