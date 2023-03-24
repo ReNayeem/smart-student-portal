@@ -7,6 +7,7 @@ import Profile from './components/Profile/Profile';
 import Footer from './components/Footer/footer';
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
+import Payment from './components/Payment/Payment';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Dashboard></Dashboard>}></Route>
           <Route path='/profile' element={<Profile></Profile>}></Route>
+          <Route path='/payment' element={<Payment></Payment>}></Route>
 
 
           <Route path='/result' element={<Result></Result>}></Route>

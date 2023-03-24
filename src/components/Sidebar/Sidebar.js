@@ -59,9 +59,9 @@ const Sidebar = () => {
                   <i className='fa-solid fa-user nav-link-icon'></i>
                   <span className='nav-link-name'>Profile</span>
                 </NavLink>
-                <NavLink to='/transactions' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
+                <NavLink to='/payment' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
                   <i className='fas fa-dollar-sign nav-link-icon'></i>
-                  <span className='nav-link-name'>Transactions</span>
+                  <span className='nav-link-name'>Payment</span>
                 </NavLink>
                 <NavLink to='/registration' className={({ isActive }) => (isActive ? "active-link nav-link" : "link nav-link ")}>
                   <i className='fa-solid fa-id-card nav-link-icon'></i>
