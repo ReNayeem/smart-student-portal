@@ -213,15 +213,15 @@
     display: none;
 }
 
-@media screen and (max-width: 1695px) {
+@media screen and (max-width: 1712px) {
     .profile-name {
         min-width: 796.93px;
     }
 }
 
-@media screen and (max-width: 1573px) {
+@media screen and (max-width: 1590px) {
     .profile-name {
-        min-width: 677px !important;
+        min-width: 683.75px !important;
     }
 }
 
@@ -241,13 +241,17 @@
     }
 }
 
-@media screen and (max-width: 1456px) {
+@media screen and (max-width: 1470px) {
     .profile-name {
         min-width: 581px !important;
     }
+
+    .profile-details {
+        width: 1069.99px;
+    }
 }
 
-@media screen and (max-width: 1357px) {
+@media screen and (max-width: 1370px) {
     .profile-name {
         min-width: 480px !important;
     }
@@ -311,7 +315,7 @@
     }
 }
 
-@media screen and (max-width: 1249px) {
+/* @media screen and (max-width: 1249px) {
     .profile-details {
         width: auto;
     }
@@ -319,11 +323,13 @@
     .profile-name {
         min-width: 724.217px !important;
     }
-}
+} */
 
-@media screen and (max-width: 1142px) {
+@media screen and (max-width: 1262px) {
     .profile-details {
         padding: 2rem 3rem;
+        width: auto;
+        /* added after commenting the line 314 to 322. This lines breakthrough was 1142px */
     }
 
     .profile-name {
