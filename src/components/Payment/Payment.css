@@ -47,7 +47,7 @@
 }
 
 .payment-first-section {
-    width: 340px;
+    width: 315px;
     height: 231.8px;
     background-color: white;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
@@ -59,7 +59,8 @@
     /* cursor: pointer; */
 }
 
-.payment-first-section i {
+.payment-first-section i,
+.payment-first-section-different i {
     color: var(--icon-color);
     background-color: var(--fade-color-2);
     padding: 1.2rem;
@@ -69,14 +70,16 @@
     transition: .5s all ease;
 }
 
-.payment-first-section h5 {
+.payment-first-section h5,
+.payment-first-section-different h5 {
     margin-top: 1.1rem;
     color: var(--fade-color-3);
     font-weight: 600;
     transition: 1s all ease;
 }
 
-.payment-first-section h3 {
+.payment-first-section h3,
+.payment-first-section-different h3 {
     margin-top: .9rem;
     font-weight: 700;
     color: var(--not-black);
@@ -130,7 +133,7 @@
 
 .payment-first-third-section {
     margin-right: 1rem;
-    margin-top: 4.2rem;
+    /* margin-top: 4.2rem; */
 }
 
 .payment-first-fourth-section {
@@ -156,6 +159,18 @@
 }
 
 .upcoming-payment-text {
-    visibility: hidden;
-    opacity: 0;
+    /* visibility: hidden;
+    opacity: 0; */
+}
+
+.payment-first-section-different {
+    width: 415px;
+    height: 231.8px;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    font-family: var(--poppins);
+    transition: 1s all ease;
 }

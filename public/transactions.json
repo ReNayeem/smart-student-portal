@@ -1,0 +1,61 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "titleIcon": "",
+            "title": "Midterm Fee",
+            "paymentTypeIcon": "",
+            "paymentType": "Cash",
+            "date": "10 April, 23",
+            "tutionFee": 25000
+        },
+        {
+            "id": 2,
+            "titleIcon": "",
+            "title": "Midterm2 Fee 2",
+            "paymentTypeIcon": "",
+            "paymentType": "Cash",
+            "date": "10 April, 23",
+            "tutionFee": 25000
+        },
+        {
+            "id": 3,
+            "titleIcon": "",
+            "title": "Midterm Fee 3",
+            "paymentTypeIcon": "",
+            "paymentType": "Cash",
+            "date": "10 April, 23",
+            "tutionFee": 25000
+        },
+        {
+            "id": 4,
+            "titleIcon": "",
+            "title": "Midterm Fee 4",
+            "paymentTypeIcon": "",
+            "paymentType": "Cash",
+            "date": "10 April, 23",
+            "tutionFee": 25000
+        },
+        {
+            "id": 5,
+            "titleIcon": "",
+            "title": "Midterm Fee 5",
+            "paymentTypeIcon": "",
+            "paymentType": "Cash",
+            "date": "10 April, 23",
+            "tutionFee": 25000
+        },
+        {
+            "id": 6,
+            "titleIcon": "",
+            "title": "Midterm6 Fee 6",
+            "paymentTypeIcon": "",
+            "paymentType": "Cash",
+            "date": "10 April, 23",
+            "tutionFee": 25000
+        }
+    ],
+    "total": 100,
+    "skip": 0,
+    "limit": 30
+}

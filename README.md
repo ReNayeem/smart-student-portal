@@ -51,6 +51,8 @@ https://micro-center-official.web.app/
 <li>npm i react-helmet-async</li>
 <li>npm i react-switch</li>
 <li>npm install recharts</li>
+<li>npm i axios</li>
+<li>npm i react-bootstrap bootstrap</li>
 <!-- <li>npm install react-hook-form</li> -->
 <!-- <li>npm install react-hot-toast</li> -->
 <!-- <li>npm install --save @stripe/react-stripe-js @stripe/stripe-js</li> -->
