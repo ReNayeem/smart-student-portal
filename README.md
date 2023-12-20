@@ -41,6 +41,7 @@ https://micro-center-official.web.app/
 
 <h3>Thank you.🙂</h3> -->
 
+<h3>Project is on hold now.</h3>
 
 <h3>Framework/Library used:</h3>
 <!-- <li>npm install firebase</li> -->
