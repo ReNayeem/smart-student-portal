@@ -174,3 +174,6 @@
     font-family: var(--poppins);
     transition: 1s all ease;
 }
+
+@media screen and (max-width: 1712px) {
+}
